@@ -7,10 +7,8 @@ const Home = () => {
   return (
     
 <>
-  
    <Hero />
    <Carousel />
-
 </>
 
   )

@@ -34,7 +34,7 @@ const Carousel = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, );
 
   const goToSlide = (index) => {
     setCurrentSlide(index);

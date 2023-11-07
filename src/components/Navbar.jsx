@@ -11,7 +11,7 @@ const Navbar = () => {
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
           <span><img
             src="images/scan.png"
-            className="h-16 pl-2 mt-1 sm:h-12"
+            className="h-16 pl-2 mt-1 md:h-32 sm:h-22"
             alt="logo"
           /></span>
         </span>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className="flex flex-col p-4 mt-4 bg-white-50 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium dark:border-gray-700">
           <li>
             <Link
-              to="/consulting"
+              to="/ourfood"
               className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Our food
@@ -68,7 +68,7 @@ const Navbar = () => {
           <span className=" flex flex-row-reverse items-center mt-6 mr-4 hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
             <span> <img
               src="images/scan.png"
-              className="h-44 pl-2 mt-2 sm:h-12"
+              className="h-24 pl-2 mt-2 sm:h-32"
               alt="logo"
             /></span>
           </span>

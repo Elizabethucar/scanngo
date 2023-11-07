@@ -10,14 +10,14 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full pt-2 pb-2 px-8 grid lg:grid-cols-3 md:grid-cols-3 gap-8 text-gray-300 bg-[#0D124B] bottom-0">
+    <div className="w-full pt-2 pb-2 px-8 grid lg:grid-cols-3 md:grid-cols-3 gap-8 text-gray-300 bg-[#06632e] bottom-0">
       <div>
         <div className="flex items-center hover pt-2">
 
           <span className=" flex flex-row-reverse mt-2 mb-8 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#f9fafb]">
             <span> <img
               src="images/scan.png"
-              className="h-12 pl-2 mt-2 sm:h-12"
+              className="h-12 pl-2 mt-2 md:h-32"
               alt="logo"
             /></span>
           </span>
@@ -84,12 +84,15 @@ const Footer = () => {
       </div>
     
       <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%]  ">
-        <p className="text-white  bg-blend-overlay"> Scan and Go</p>
-        <p className="text-white  bg-blend-overlay">  XXXXX</p>
-        <p className="text-white  bg-blend-overlay">  XXXXX Stockholm</p>
-        <p className="text-white  bg-blend-overlay"> (+46) 70 122 620 </p>
-{/*         <a className='text-white underline underline-offset-8 m absolute bg-blend-overlay text-center' href="mailto:info@scanngo.se">  info@scanngo.se</a>
- */}      
+        <p className="text-white"> Scan and Go</p>
+        <p className="text-white">  XXXXX</p>
+        <p className="text-white">  XXXXX Stockholm</p>
+        <p className="text-white"> (+46) 70 122 620 </p>
+        <div className="mr-32">
+        <a className='text-white underline underline-offset-8 m absolute mr-32' href="mailto:info@scanngo.se">info@scanngo.se</a>
+
+        </div>
+     
  
       </div>
      

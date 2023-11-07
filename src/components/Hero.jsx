@@ -21,7 +21,7 @@ const Hero = () => {
              Give me a call at: +46 70 122 620 <span><p>or</p></span>
            </p>
            <a
-             className="bg-[#343B63] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-gradient-to-r from-[#0D124B] via-[#8FACF4] to-[#0D124B]"
+             className="bg-[#06632e] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-gradient-to-r from-[#0D124B] via-[#8FACF4] to-[#0D124B]"
              href="mailto:info@scanngo.se"
            >
              Send an email
