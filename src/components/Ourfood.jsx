@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Ourfood = () => {
   return (
     <div>
-      <h2 className='text-5xl font-bold font-mono text-center mt-12 text-[#06632e]'>Våra maträtter</h2>
+      <h2 className='text-5xl font-bold font-mono text-center mt-12 text-[#06632e]'>Meny</h2>
       <div className='w-full py-[10rem] px-4 bg-white'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-16'>
           <div className='w-full shadow-2xl shadow-[#06632e] flex flex-col p-4 my-4  rounded-lg hover:scale-105 duration-300'>
