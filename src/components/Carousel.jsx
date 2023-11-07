@@ -19,7 +19,7 @@ const Carousel = () => {
       caption: "Slide 4",
     },
     {
-      src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVlZiUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+      src: "https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BpY2VzfGVufDB8fDB8fHww",
       caption: "Slide 5",
     },
   ];
@@ -53,7 +53,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative border-slate-100 bg-white">
+    <div className="relative border-slate-100 bg-white ">
       <div className="flex h-96 items-center justify-center bg-gradient-to-r from-gray-50 via-slate-300 to-gray-50">
         {slides.map((slide, index) => (
           <div

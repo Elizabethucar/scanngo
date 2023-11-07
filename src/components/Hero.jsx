@@ -3,36 +3,30 @@ const Hero = () => {
   return (
 
  
-<div className="w-full py-16 px-4 shadow-2xl pl-8 4xl:pr-[23%]">
-       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-18 pl-0 ">
-         <img
-           src='../images/köttbulle.png'
-           alt="A server"
-           className="w-[100%] h-[100%] mx-auto bg-white relative object-fit "
-         />
-         <div className="flex flex-col justify-center ">
-           <p className="text-[#3A7F89]  uppercase font-bold">
-             Contact us
-           </p>
-           <h1 className="md:text-4xl sm:text-3xl  text-2xl font-bold py-2">
-             Jonas ucar
-           </h1>
-           <p>
-             Give me a call at: +46 70 122 620 <span><p>or</p></span>
-           </p>
-           <a
-             className="bg-[#06632e] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-gradient-to-r from-[#0D124B] via-[#8FACF4] to-[#0D124B]"
-             href="mailto:info@scanngo.se"
-           >
-             Send an email
-           </a>
-         </div>
+    <div className="pt-10 flex flex-col relative pb-16 mb-36 ">
+    <div>
+        <img src="./images/food.jpg" alt="branches" className='absolute opacity-60  w-full h-[100%]
+        ' />
+        </div>
+        <div className="flex flex-col justify-center pl-8">
+            <p className="text-[#06632e] text-3xl uppercase font-bold z-10">
+              Scan´n Go
+            </p>
+            <h1 className="md:text-4xl sm:text-3xl mt-12  text-2xl font-bold py-2 z-10">
+              Färsk mat med naturliga ingredinser.
+            </h1>
+            <p className="text-xl mt-12 z-10 font-bold">
+             Nyttiga matlådor på jobbet! 
+            </p>
+            <a
+              className="bg-[#06632e] hover:bg-[#33a364] text-white w-[200px] mt-48 rounded-lg font-medium my-6 mx-auto px-6 py-3 z-10"
+              href="/ourfood"
+            >
+              Meny
+            </a>
+    
        </div>
-      
-     </div>
-
-   
-
+       </div>
   )
 }
 
