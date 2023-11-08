@@ -2,6 +2,7 @@ import Carousel from "./Carousel";
 import Hero from "./Hero";
 import Food from "./Food";
 import Info from "./Info";
+import Text from "./Text";
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
    <Food />
    <Info />
    <Carousel />
+   <Text />
 </>
 
   )
