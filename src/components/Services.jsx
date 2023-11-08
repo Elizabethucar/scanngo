@@ -1,9 +1,10 @@
+import Mera from './Mera'
 
 const Services = () => {
   return (
 
- 
-    <div className="pt-0 flex flex-col relative pb-16 mb-36 ">
+ <>
+    <div className="pt-0 flex flex-col relative pb-16  ">
     <div>
         <img src="./images/fridge.jpg" alt="branches" className='absolute  w-full h-[100%]
         ' />
@@ -16,6 +17,9 @@ const Services = () => {
             <p className="text-xl mt-8 z-10 font-bold text-white ">
              Vi tänker på maten, så ni slipper! 
             </p>
+            <p className="text-xl mt-8 z-10 text-orange-500 text-white ">
+            Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen
+            </p>
             <a
               className="bg-[#06632e] hover:bg-[#33a364] text-white w-[200px] mt-48 rounded-lg font-medium my-6 mx-auto px-6 py-3 z-10"
               href="/contact"
@@ -25,6 +29,8 @@ const Services = () => {
     
        </div>
        </div>
+       <Mera />
+       </>
   )
 }
 

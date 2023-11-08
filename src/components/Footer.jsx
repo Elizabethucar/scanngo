@@ -37,9 +37,9 @@ const Footer = () => {
           <Link to="">
             <FaTwitterSquare size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
-          <Link to="">
+          {/* <Link to="">
             <FaSlack size={30} className="mr-4 hover:scale-110 duration-300" />
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -80,11 +80,11 @@ const Footer = () => {
         </div> 
       </div>*/}
     <div className="flex lg:flex-row mt-4 md:pt-[40%] flex-row">
-        <p className="md:text-sm md:ml-16 text-sm">© 2023 Scan and Go. All Rights Reserved </p>
+        <p className="md:text-sm md:ml-16 text-sm">© 2023 Scan´N Go. All Rights Reserved </p>
       </div>
     
       <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%]  ">
-        <p className="text-white"> Scan and Go</p>
+        <p className="text-white"> Scan´ N Go</p>
         <p className="text-white"> Stockholm</p>
         <p className="text-white"> (+46) 707 122 620 </p>
         <p className="text-white"> (+46) 708 802 306</p>
