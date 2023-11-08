@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb]">
+    <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb]  ">
       <Link to="/" className="flex items-center hover">
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
           <span><img
-            src="images/scan.png"
+            src="images/transperant.png"
             className="h-16 pl-2 mt-1 md:h-32 sm:h-22"
             alt="logo"
           /></span>
@@ -36,24 +36,24 @@ const Navbar = () => {
               to="/services"
               className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
-              Services
+              Tjänster
             </Link>
           </li>
        
-          <li>
+         {/*  <li>
             <Link
               to="/about"
               className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
-              About us
+              Om oss
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/contact"
               className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
-              Contact
+              Kontakt
             </Link>
           </li>
         </ul>

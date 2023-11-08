@@ -12,17 +12,20 @@ const Contact = () => {
             className="w-[100%] h-[100%] mx-auto bg-white relative object-fit "
           />
           <div className="flex flex-col justify-center ">
-            <p className="text-[#3A7F89]  uppercase font-bold">
+            <p className="text-[#06632e]  uppercase font-bold">
               Kontakta oss
             </p>
             <h1 className="md:text-4xl sm:text-3xl  text-2xl font-bold py-2">
-              Jonas Ucar
+              Jonas
             </h1>
             <p>
-              Tel: +46 70 122 620 <span><p>eller</p></span>
+              Tel: +46 707 122 620 
+            </p>
+            <p>
+              Tel: +46 708 802 306 <span><p>eller</p></span>
             </p>
             <a
-              className="bg-[#343B63] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-gradient-to-r from-[#0D124B] via-[#8FACF4] to-[#0D124B]"
+              className="bg-[#06632e] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-[#bf6135]"
               href="mailto:info@scanngo.se"
             >
               Skicka email

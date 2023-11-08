@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 import Ourfood from './components/Ourfood';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
              <Routes>
               <Route path='/' element={<Home />} />
                <Route path='/ourfood' element={<Ourfood />} />
-             {/*   <Route path='*' element={<NotFound />} />  */}
+             <Route path='services' element={<Services />} /> 
                 <Route path='/contact' element={<Contact />} /> 
              </Routes>
            </div>

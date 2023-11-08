@@ -9,13 +9,15 @@ const Hero = () => {
         ' />
         </div>
         <div className="flex flex-col justify-center pl-8">
-            <p className="text-[#06632e] mt-8 text-3xl uppercase font-bold z-10">
-              Scan´n Go
-            </p>
-            <h1 className="md:text-4xl sm:text-3xl mt-12  text-2xl font-bold py-2 z-10">
+        <span><img
+            src="images/transperant.png"
+            className="h-16 pl-2 mt-1 md:h-32 sm:h-22 mx-auto z-10 relative"
+            alt="logo"
+          /></span>
+            <h1 className="md:text-5xl sm:text-3xl mt-12 text-white text-2xl font-bold py-2 z-10">
               Färsk mat med naturliga ingredinser.
             </h1>
-            <p className="text-xl mt-12 z-10 font-bold">
+            <p className="text-xl mt-12 z-10 font-bold text-white">
              Nyttiga matlådor på jobbet! 
             </p>
             <a

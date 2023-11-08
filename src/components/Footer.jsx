@@ -85,9 +85,9 @@ const Footer = () => {
     
       <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%]  ">
         <p className="text-white"> Scan and Go</p>
-        <p className="text-white">  XXXXX</p>
-        <p className="text-white">  XXXXX Stockholm</p>
-        <p className="text-white"> (+46) 70 122 620 </p>
+        <p className="text-white"> Stockholm</p>
+        <p className="text-white"> (+46) 707 122 620 </p>
+        <p className="text-white"> (+46) 708 802 306</p>
         <div className="mr-32">
         <a className='text-white underline underline-offset-8 m absolute mr-32' href="mailto:info@scanngo.se">info@scanngo.se</a>
 
