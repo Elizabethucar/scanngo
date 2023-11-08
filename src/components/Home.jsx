@@ -1,5 +1,6 @@
 import Carousel from "./Carousel";
 import Hero from "./Hero";
+import Food from "./Food";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
     
 <>
    <Hero />
+   <Food />
    <Carousel />
 </>
 
