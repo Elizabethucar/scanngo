@@ -72,7 +72,7 @@ const Navbar = () => {
           <span className=" flex flex-row-reverse items-center mt-6 mr-4 hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
             <span> <img
               src="images/scan.png"
-              className="h-24 pl-2 mt-2 sm:h-32"
+              className="h-24 pl-8 mt-2 sm:h-32"
               alt="logo"
             /></span>
           </span>
