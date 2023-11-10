@@ -83,7 +83,7 @@ const Navbar = () => {
               to="/ourfood" onClick={closeNav}
               className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
-              Our food
+              Meny
             </Link>
           </li>
           <li className='border-[#6939bb]'>
@@ -91,23 +91,23 @@ const Navbar = () => {
               to="/services" onClick={closeNav}
               className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
-              Services
+              Tjänster
             </Link>
           </li>
-          <li className='border-[#6939bb]'>
+        {/*   <li className='border-[#6939bb]'>
             <Link
               to="/about" onClick={closeNav}
               className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               About us
             </Link>
-          </li>
+          </li> */}
           <li className='border-[#6939bb]'>
             <Link
               to="/contact" onClick={closeNav}
               className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
-              Contact
+              Kontakt
             </Link>
           </li>
         </ul>
