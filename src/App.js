@@ -7,6 +7,8 @@ import Footer from './components/Footer'
 import Ourfood from './components/Ourfood';
 import Services from './components/Services';
 import CookieBanner from './components/Cookies';
+import NotFound from './components/NotFound';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
                <Route path='/ourfood' element={<Ourfood />} />
              <Route path='services' element={<Services />} /> 
                 <Route path='/contact' element={<Contact />} /> 
+                <Route path='*' element={<NotFound />} />
              </Routes>
            </div>
            <CookieBanner />
