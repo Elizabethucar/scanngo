@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 import Ourfood from './components/Ourfood';
 import Services from './components/Services';
+import CookieBanner from './components/Cookies';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path='/contact' element={<Contact />} /> 
              </Routes>
            </div>
+           <CookieBanner />
            <Footer />
          </div>
          </BrowserRouter>
