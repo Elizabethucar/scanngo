@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full pt-2 pb-2 px-8 grid lg:grid-cols-3 md:grid-cols-3 gap-8 text-gray-300 bg-[#06632e] bottom-0">
+    <div className="w-full pt-2 pb-12 px-8 grid lg:grid-cols-3 md:grid-cols-3 gap-8 text-gray-300 bg-[#06632e] bottom-0">
       <div>
         <div className="flex items-center hover pt-2">
 
@@ -28,13 +28,13 @@ const Footer = () => {
 
 
         <div className="flex mt-2">
-          <Link to="">
+          <Link to="https://linkedin.com/">
             <FaLinkedinIn size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
-          <Link to="">
+          <Link to="https://www.instagram.com/">
             <FaInstagram size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
-          <Link to="">
+          <Link to="https://twitter.com/">
             <FaTwitterSquare size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
           {/* <Link to="">
@@ -89,7 +89,7 @@ const Footer = () => {
         <p className="text-white"> (+46) 707 122 620 </p>
         <p className="text-white"> (+46) 708 802 306</p>
         <div className="mr-32">
-        <a className='text-white underline underline-offset-8 m absolute mr-32' href="mailto:info@scanngo.se">info@scanngo.se</a>
+        <a className='text-white underline underline-offset-8  absolute mr-32' href="mailto:info@scanngo.se">info@scanngo.se</a>
 
         </div>
      
@@ -97,9 +97,7 @@ const Footer = () => {
       </div>
      
       
-      <div className='max-w-[1000px] mt-[-1196px] shadow w-auto mx-auto text-center flex flex-col'>
-        
-      </div>
+     
     </div>
 
   )

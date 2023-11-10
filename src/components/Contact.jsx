@@ -1,7 +1,10 @@
-
+import ReCAPTCHA from "react-google-recaptcha";
+import { useState } from "react";
 
 
 const Contact = () => {
+  const [captcha, setCaptcha] = useState(false);
+
   return (
     
       <div className="w-full py-16 px-4 shadow-2xl pl-8 4xl:pr-[23%]">
@@ -11,7 +14,7 @@ const Contact = () => {
             alt="A server"
             className="w-[100%] h-[100%] mx-auto bg-white relative object-fit "
           />
-          <div className="flex flex-col justify-center ">
+          <div className="flex flex-col justify-center md:items-center">
             <p className="text-[#06632e]  uppercase font-bold">
               Kontakta oss
             </p>
@@ -24,12 +27,26 @@ const Contact = () => {
             <p>
               Tel: +46 708 802 306 <span><p>eller</p></span>
             </p>
-            <a
-              className="bg-[#06632e] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-[#bf6135]"
-              href="mailto:info@scanngo.se"
-            >
-              Skicka email
-            </a>
+            <ReCAPTCHA className=""
+                  sitekey="6LdqMAwiAAAAADCSKAnd9VLheBJj3oFwBpicdF4N"
+                  onChange={() => setCaptcha(!captcha)}
+                />
+                {!captcha ? (
+                 <a
+                 className="bg-[#06632e] text-[#FFFFFF] pointer-events-none rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-[#bf6135]"
+                 href="mailto:info@scanngo.se"
+               >
+                 Skicka email
+               </a>
+                ) : (
+                  <a
+                  className="bg-[#06632e] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-[#bf6135]"
+                  href="mailto:info@scanngo.se"
+                >
+                  Skicka email
+                </a>
+                )}
+           
           </div>
         </div>
       </div>
