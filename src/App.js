@@ -8,6 +8,7 @@ import Ourfood from './components/Ourfood';
 import Services from './components/Services';
 import CookieBanner from './components/Cookies';
 import NotFound from './components/NotFound';
+import Scroll from './components/Scroll';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path='*' element={<NotFound />} />
              </Routes>
            </div>
+           <Scroll />
            <CookieBanner />
            <Footer />
          </div>

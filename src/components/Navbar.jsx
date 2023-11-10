@@ -10,6 +10,7 @@ const Navbar = () => {
   };
 
   return (
+     <div className="sticky z-10 top-0 absolute">
     <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb]  ">
       <Link to="/" className="flex items-center hover">
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
@@ -58,6 +59,7 @@ const Navbar = () => {
           </li>
         </ul>
       </ul>
+      </div>
       <div onClick={() => setNav(!nav)} className="block md:hidden">
         {!nav ? <AiOutlineMenu size={20} className='text-green-700'/> : <AiOutlineClose size={20} className='text-green-700'/>}
       </div>
