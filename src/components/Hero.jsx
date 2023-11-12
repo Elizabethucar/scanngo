@@ -13,10 +13,10 @@ const Hero = () => {
               Scan´N Go
             </h1>
        
-            <h1 className="md:text-5xl sm:text-3xl mt-12 text-white text-2xl font-bold py-2 z-10">
+            <h1 className="md:text-5xl sm:text-3xl mt-12 text-white text-2xl font-bold py-2 z-0">
               Färsk mat med naturliga ingredinser.
             </h1>
-            <p className="text-xl mt-12 z-10 font-bold text-white">
+            <p className="text-xl mt-12 z-0 font-bold text-white">
              Nyttiga matlådor på jobbet! 
             </p>
             <a

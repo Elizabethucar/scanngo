@@ -9,6 +9,7 @@ import Services from './components/Services';
 import CookieBanner from './components/Cookies';
 import NotFound from './components/NotFound';
 import Scroll from './components/Scroll';
+import OurfoodInfo from './components/OurfoodInfo';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
              <Routes>
               <Route path='/' element={<Home />} />
                <Route path='/ourfood' element={<Ourfood />} />
+               <Route path='/ourfood/:id' element={<OurfoodInfo />} />
              <Route path='services' element={<Services />} /> 
                 <Route path='/contact' element={<Contact />} /> 
                 <Route path='*' element={<NotFound />} />

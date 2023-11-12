@@ -15,8 +15,8 @@ const Navbar = () => {
       <Link to="/" className="flex items-center hover">
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
           <span><img
-            src="images/transperant.png"
-            className="h-16 pl-2 mt-1 md:h-32 sm:h-22"
+            src="images/new.png"
+            className="h-20 pl-2 mt-1 md:h-40 sm:h-22"
             alt="logo"
           /></span>
         </span>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/ourfood"
-              className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block py-2 pl-3 pr-4 mt-2 z-index  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Meny
             </Link>
