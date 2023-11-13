@@ -9,7 +9,7 @@ const Hero = () => {
         ' />
         </div>
         <div className="flex flex-col justify-center pl-8">
-        <h1 className="md:text-5xl sm:text-3xl mt-12  text-green-700 text-2xl font-bold py-2 z-0">
+        <h1 className="md:text-5xl sm:text-3xl mt-36  text-green-700 text-2xl font-bold py-2 z-0">
               Scan´N Go
             </h1>
        

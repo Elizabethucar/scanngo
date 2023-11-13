@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import foods from './foodsData';
+import foods from '../components/foodsData';
 
 const Ourfood = () => {
   return (

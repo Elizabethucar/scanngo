@@ -9,12 +9,12 @@ const Navbar = () => {
     setNav(false);
   };
   return (
-    <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb]">
+    <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb] fixed top-0  z-10">
       <Link to="/" className="flex items-center hover">
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
           <span><img
-            src="../images/scan.png"
-            className="h-20 pl-2 mt-2 md:h-28 sm:h-22"
+            src="../images/transperant.png"
+            className="h-20 pl-2 mt-2 md:h-32 sm:h-22"
             alt="logo"
           /></span>
         </span>

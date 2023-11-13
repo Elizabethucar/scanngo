@@ -1,15 +1,15 @@
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Home from './components/Home'; 
-import Contact from './components/Contact';
+import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
-import Ourfood from './components/Ourfood';
+import Ourfood from './pages/Ourfood';
 import Services from './components/Services';
 import CookieBanner from './components/Cookies';
-import NotFound from './components/NotFound';
+import NotFound from './pages/NotFound';
 import Scroll from './components/Scroll';
-import OurfoodInfo from './components/OurfoodInfo';
+import OurfoodInfo from './pages/OurfoodInfo';
 import foods from './components/foodsData'
 
 

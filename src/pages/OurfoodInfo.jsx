@@ -1,7 +1,7 @@
 // OurfoodInfo.js
 import React from 'react';
 import { useParams , Link} from 'react-router-dom';
-import foods from './foodsData';  
+import foods from '../components/foodsData';  
 import { FcCheckmark } from "react-icons/fc";
 
 const OurfoodInfo = () => {
