@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full pt-2 pb-12 px-8 grid lg:grid-cols-3 md:grid-cols-3 gap-8 text-gray-300 bg-[#06632e] bottom-0">
+    <div className="w-full pt-2 pb-12 px-8 grid lg:grid-cols-3 md:grid-cols-3 mt-12 gap-8 text-gray-300 bg-[#06632e] bottom-0">
       <div>
         <div className="flex items-center hover pt-2">
 

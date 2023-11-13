@@ -4,9 +4,9 @@
 const foods =[
   {id:1 , name:'Wallenberg', mat:'Nöt', img:'/images/wallenberg.png'},
   {id:2 , name:'Köttbullar (nöt)', mat:'Nöt', img:'/images/köttbulle.png'},
-  {id:3 , name:'Kyckling Curry-pasta', mat:'Nöt', img:'/images/pasta.png'},
-  {id:4 , name:'Spicy Tuna pasta', mat:'Nöt', img:'/images/tuna.png'},
-  {id:5 , name:'Kyckling Tikka Masala', mat:'Nöt', img:'/images/tikka.png'},
+  {id:3 , name:'Kyckling Curry-pasta', mat:'Kyckling', img:'/images/pasta.png'},
+  {id:4 , name:'Spicy Tuna pasta', mat:'Fisk', img:'/images/tuna.png'},
+  {id:5 , name:'Kyckling Tikka Masala', mat:'Kyckling', img:'/images/tikka.png'},
   {id:6 , name:'Teriyaki', mat:'Nöt', img:'/images/teriyaki.png'},
   {id: 7 ,name:'Bygglådan', mat:'Nöt', img:'/images/bygg.png'},
   {id: 8 ,name:'Stroganoff', mat:'Nöt', img:'/images/stoganoff.png'},
