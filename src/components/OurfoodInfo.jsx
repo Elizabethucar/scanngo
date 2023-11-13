@@ -83,7 +83,7 @@ const OurfoodInfo = () => {
           <div className='flex justify-center mb-8'> </div>
           <Link
               to={'/ourfood'} 
-              className='bg-green-700 mb-8 text-center  hover:bg-[#33a364] text-white w-[200px] rounded-lg font-medium my-6 mx-auto px-6 py-3'
+              className='bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-center text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'
             >
              Meny
              </Link>

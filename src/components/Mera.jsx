@@ -4,8 +4,6 @@ import React from 'react'
 const Mera = () => {
   return (
     <div className='w-full bg-white py-16 px-12 relative'>
-      {/* <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 rounded-3xl pr-3'> */}
-       {/*  <img src= alt="A cirkle" className='w-[500px] mx-auto object-fit hover:scale-105 duration-300' /> */}
         <div className='flex flex-col justify-center'>
           <p className='text-[#06632e] uppercase font-bold text-3xl '>Scan´n Go</p>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold  py-2 text-black'>Vi förenklar din arbetsdag!</h1>
@@ -17,7 +15,7 @@ const Mera = () => {
 
    Hos oss kan du välja din egen veckomeny genom att klicka hem de matlådor som passar dig och dina behov eller så kan du välja någon av våra färdiga kassar.
    Som anställd betalar du enkelt genom att scanna QR koden på kylen för att komma åt din matlåda. Dessutom sparar du massa pengar på att köpa matlådor istället för att äta lunch ute varje dag!
-Låt oss ta hand om din lunch så att du kan fokusera på jobbet!
+   Låt oss ta hand om din lunch så att du kan fokusera på jobbet!
           </p>
         </div>
       </div>

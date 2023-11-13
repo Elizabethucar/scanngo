@@ -17,11 +17,11 @@ const Services = () => {
             <p className="text-xl mt-8 z-0 font-bold text-white ">
              Vi tänker på maten, så ni slipper! 
             </p>
-            <p className="text-xl mt-8 z-0 text-orange-500 text-white ">
+            <p className="text-2xl mt-8 z-0 text-orange-600  ">
             Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen
             </p>
             <a
-              className="bg-[#06632e] hover:bg-[#33a364] text-white w-[200px] mt-48 rounded-lg font-medium my-6 mx-auto px-6 py-3 z-0"
+              className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white w-[200px] mt-48 rounded-md font-medium my-6 mx-auto px-6 py-3 z-0"
               href="/contact"
             >
               Kontakta oss

@@ -33,14 +33,14 @@ const Contact = () => {
                 />
                 {!captcha ? (
                  <a
-                 className="bg-[#06632e] text-[#FFFFFF] pointer-events-none rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-[#bf6135]"
+                 className="bg-green-700 text-[#FFFFFF] pointer-events-none rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-orange-600"
                  href="mailto:info@scanngo.se"
                >
                  Skicka email
                </a>
                 ) : (
                   <a
-                  className="bg-[#06632e] text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-[#bf6135]"
+                  className="bg-green-600 text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-orange-600"
                   href="mailto:info@scanngo.se"
                 >
                   Skicka email
