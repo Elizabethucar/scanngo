@@ -8,15 +8,13 @@ const Navbar = () => {
   const closeNav = () => {
     setNav(false);
   };
-
   return (
-     <div className="sticky z-10 top-0 absolute">
-    <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb]  ">
+    <div className="flex justify-between items-center h-24 w-screen mx-auto px-6 bg-white text-[#6939bb]">
       <Link to="/" className="flex items-center hover">
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
           <span><img
-            src="images/new.png"
-            className="h-20 pl-2 mt-1 md:h-40 sm:h-22"
+            src="../images/scan.png"
+            className="h-20 pl-2 mt-2 md:h-28 sm:h-22"
             alt="logo"
           /></span>
         </span>
@@ -27,11 +25,12 @@ const Navbar = () => {
           <li>
             <Link
               to="/ourfood"
-              className="block py-2 pl-3 pr-4 mt-2 z-index  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block py-2 pl-3 pr-4 mt-2 z-index text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Meny
             </Link>
           </li>
+         
           <li>
             <Link
               to="/services"
@@ -40,15 +39,6 @@ const Navbar = () => {
               Tjänster
             </Link>
           </li>
-       
-         {/*  <li>
-            <Link
-              to="/about"
-              className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
-            >
-              Om oss
-            </Link>
-          </li> */}
           <li>
             <Link
               to="/contact"
@@ -59,7 +49,6 @@ const Navbar = () => {
           </li>
         </ul>
       </ul>
-      </div>
       <div onClick={() => setNav(!nav)} className="block md:hidden">
         {!nav ? <AiOutlineMenu size={20} className='text-green-700'/> : <AiOutlineClose size={20} className='text-green-700'/>}
       </div>
@@ -70,11 +59,11 @@ const Navbar = () => {
       }
       >
 
-        <Link to="/"  onClick={closeNav} className="flex items-center hover ml-4">
+        <Link to="/" className="flex items-center hover ml-4">
           <span className=" flex flex-row-reverse items-center mt-6 mr-4 hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
             <span> <img
-              src="images/scan.png"
-              className="h-24 pl-16 mt-2 sm:h-32"
+              src="../images/scan.png"
+              className="h-24 pl-12 mt-2 sm:h-12"
               alt="logo"
             /></span>
           </span>
@@ -82,32 +71,26 @@ const Navbar = () => {
         <ul className="flex flex-col p-4 mt-4 rounded-lg bg-white-50 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium md:border-0 md:bg-white dark:bg-white-800 md:dark:bg-[#FFFFFF] dark:border-gray-700">
           <li className='border-[#6939bb]'>
             <Link
-              to="/ourfood" onClick={closeNav}
-              className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-600 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+             to="/ourfood" onClick={closeNav}
+              className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Meny
             </Link>
           </li>
+
           <li className='border-[#6939bb]'>
             <Link
               to="/services" onClick={closeNav}
-              className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-600 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Tjänster
             </Link>
           </li>
-        {/*   <li className='border-[#6939bb]'>
-            <Link
-              to="/about" onClick={closeNav}
-              className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-green-600 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
-            >
-              About us
-            </Link>
-          </li> */}
+         
           <li className='border-[#6939bb]'>
             <Link
-              to="/contact" onClick={closeNav}
-              className="block py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-green-600 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+              to="/contact"
+              className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-white-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Kontakt
             </Link>

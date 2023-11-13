@@ -4,7 +4,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
   FaLinkedinIn,
-  FaSlack,
+
 } from "react-icons/fa"
 
 
@@ -16,7 +16,7 @@ const Footer = () => {
 
           <span className=" flex flex-row-reverse mt-2 mb-8 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#f9fafb]">
             <span> <img
-              src="images/scan.png"
+              src="./images/scan.png"
               className="h-12 pl-2 mt-2 md:h-32"
               alt="logo"
             /></span>
@@ -92,12 +92,7 @@ const Footer = () => {
         <a className='text-white underline underline-offset-8  absolute mr-32' href="mailto:info@scanngo.se">info@scanngo.se</a>
 
         </div>
-     
- 
       </div>
-     
-      
-     
     </div>
 
   )
