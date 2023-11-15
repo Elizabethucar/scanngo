@@ -3,13 +3,13 @@ const Hero = () => {
   return (
 
  
-    <div className="pt-0 flex flex-col relative pb-16 mb-36 ">
+    <div className="pt-0 flex flex-col relative pb-16 mb-36 mt-12 ">
     <div>
         <img src="./images/food.jpg" alt="branches" className='absolute opacity-60 w-full h-[100%]
         ' />
         </div>
         <div className="flex flex-col justify-center pl-8">
-        <h1 className="md:text-5xl sm:text-3xl mt-36  text-green-700 text-2xl font-bold py-2 z-0">
+        <h1 className="md:text-5xl sm:text-3xl mt-36  text-orange-700 text-2xl font-bold py-2 z-0">
               Scan´N Go
             </h1>
        

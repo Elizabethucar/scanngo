@@ -4,7 +4,7 @@ const Services = () => {
   return (
 
  <>
-    <div className="pt-0 flex flex-col relative pb-16  ">
+    <div className="pt-0 flex flex-col mt-24 relative pb-16  ">
     <div>
         <img src="./images/fridge.jpg" alt="branches" className='absolute   w-full h-[100%]
         ' />
