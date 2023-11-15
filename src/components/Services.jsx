@@ -9,7 +9,7 @@ const Services = () => {
         <img src="./images/fridge.jpg" alt="branches" className='absolute   w-full h-[100%]
         ' />
         </div>
-        <div className="flex flex-col justify-center pl-8">
+        <div className="flex flex-col justify-center p-4">
         
             <h1 className="md:text-5xl sm:text-3xl mt-12  text-white text-3xl font-bold py-2 z-0">
               Våra tjänster
