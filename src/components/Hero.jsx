@@ -8,7 +8,7 @@ const Hero = () => {
         <img src="./images/food.jpg" alt="branches" className='absolute opacity-60 w-full h-[100%]
         ' />
         </div>
-        <div className="flex flex-col justify-center pl-8">
+        <div className="flex flex-col justify-center p-8">
         <h1 className="md:text-5xl sm:text-3xl mt-36  text-orange-700 text-4xl font-bold py-2 z-0">
               Scan´N Go
             </h1>
