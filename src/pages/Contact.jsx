@@ -28,7 +28,7 @@ const Contact = () => {
               Tel: +46 708 802 306 <span><p>eller</p></span>
             </p>
             <ReCAPTCHA className="ml-8 mt-8"
-                  sitekey="6LdqMAwiAAAAADCSKAnd9VLheBJj3oFwBpicdF4N"
+                  sitekey="6LdH9F4iAAAAAGuqxAVOwTGsRTIa0YDpFJ8f6Ii3"
                   onChange={() => setCaptcha(!captcha)}
                 />
                 {!captcha ? (
