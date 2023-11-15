@@ -59,7 +59,7 @@ const Navbar = () => {
       }
       >
 
-        <Link to="/" className="flex items-center hover ml-4">
+        <Link to="/"  onClick={closeNav} className="flex items-center hover ml-4">
           <span className=" flex flex-row-reverse items-center mt-6 mr-4 hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
             <span> <img
               src="../images/scan.png"
