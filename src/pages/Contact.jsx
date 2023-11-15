@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     
      
-        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-18 pl-0 ">
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-18 pl-0 mt-12">
           <img
             src='../images/samarbete.png'
             alt="A server"

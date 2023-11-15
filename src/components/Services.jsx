@@ -11,7 +11,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col justify-center pl-8">
         
-            <h1 className="md:text-5xl sm:text-3xl mt-12  text-white text-2xl font-bold py-2 z-0">
+            <h1 className="md:text-5xl sm:text-3xl mt-12  text-white text-3xl font-bold py-2 z-0">
               Våra tjänster
             </h1>
             <p className="text-xl mt-8 z-0 font-bold text-white ">
