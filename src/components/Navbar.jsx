@@ -41,6 +41,14 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to="/about"
+              className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+            >
+              Om oss
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact"
               className="block py-2 pl-3 pr-4 mt-2  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
@@ -84,6 +92,14 @@ const Navbar = () => {
               className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Tjänster
+            </Link>
+          </li>
+          <li className='border-[#6939bb]'>
+            <Link
+              to="/about" onClick={closeNav}
+              className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-black dark:text-black-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+            >
+              Om oss
             </Link>
           </li>
          
