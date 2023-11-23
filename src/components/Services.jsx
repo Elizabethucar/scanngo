@@ -6,7 +6,7 @@ const Services = () => {
  <>
  <div className="pt-0 flex flex-col relative pb-16 mb-30 mt-12 ">
     <div>
-        <img src="./images/spice.jpg" alt="branches" className='absolute opacity-60 w-full h-[100%]
+        <img src="./images/spice.jpg" alt="branches" className='absolute opacity-60 w-full h-[100%] object-cover
         ' />
         </div>
         <div className="flex flex-col justify-center p-8">
