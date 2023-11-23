@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-       <div className="grid grid-flow-row-dense grid-cols-4 my-auto  mx-auto  text-start">
+       <div className="grid grid-flow-row-dense grid-cols-4 my-auto    text-start">
 
         <div>
           <Link to='/ourfood'>
