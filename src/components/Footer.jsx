@@ -31,7 +31,7 @@ const Footer = () => {
           <Link to="https://linkedin.com/">
             <FaLinkedinIn size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
-          <Link to="https://www.instagram.com/">
+          <Link to="https://www.instagram.com/scaneatgo">
             <FaInstagram size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
           <Link to="https://twitter.com/">
@@ -62,7 +62,7 @@ const Footer = () => {
         
          <div>
           <Link to="faq">
-            <h6 className="font-medium text-white ml-4 md:hover:text-slate-200 ">Faq</h6>
+            <h6 className="font-medium text-white ml-4 md:hover:text-slate-200 ">FAQ:s</h6>
           </Link> 
          </div> 
       </div>

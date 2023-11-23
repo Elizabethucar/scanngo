@@ -3,7 +3,7 @@ const Hero = () => {
   return (
 
  
-    <div className="pt-0 flex flex-col relative pb-16 mb-36 mt-12 ">
+    <div className="pt-0 flex flex-col relative pb-16 mb-12 mt-12 ">
     <div>
         <img src="./images/knife.jpg" alt="branches" className='absolute opacity-70 w-full h-[100%] object-cover
         ' />
