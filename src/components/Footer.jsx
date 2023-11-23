@@ -12,12 +12,12 @@ const Footer = () => {
   return (
     <div className="w-full pt-2 pb-12 px-8 grid lg:grid-cols-3 md:grid-cols-3 mt-12 gap-8 text-gray-300 bg-green-700 bottom-0">
       <div>
-        <div className="flex items-center hover pt-2">
+        <div className="flex items-center hover pt-2 ">
 
-          <span className=" flex flex-row-reverse mt-2 mb-8 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#f9fafb]">
+          <span className=" flex flex-row-reverse mt-2 mb-8  items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#f9fafb]">
             <span> <img
               src="./images/scan.png"
-              className="h-12 pl-2 mt-2 md:h-32"
+              className="h-12  md:h-32"
               alt="logo"
             /></span>
           </span>
@@ -37,53 +37,38 @@ const Footer = () => {
           <Link to="https://twitter.com/">
             <FaTwitterSquare size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
-          {/* <Link to="">
-            <FaSlack size={30} className="mr-4 hover:scale-110 duration-300" />
-          </Link> */}
+         
         </div>
       </div>
 
-       {/* <div className="grid grid-flow-row-dense grid-cols-4">
-       <div className=""> */}
-        {/* s
-        {/*  <ul>
-            <li className="py-2 text-sm">Pricing</li>
-          </ul> */}
-        {/* </div> */}
+       <div className="grid grid-flow-row-dense grid-cols-4 my-auto  mx-auto  text-start">
 
-        {/* <div>
-          <Link to='/about'>
-            <h6 className="font-medium text-gray-400">About</h6>
-          </Link> */}
-        {/*  <ul>
-            <li className="py-2 text-sm">Private Policy</li>
-          </ul> */}
-        {/* </div> */}
+        <div>
+          <Link to='/ourfood'>
+            <h6 className="font-medium text-white md:hover:text-slate-200">Meny</h6>
+          </Link> 
+        </div>
 
-        {/* <div>
-          <Link to="https://www.sudosweden.com/">
-            <h6 className="font-medium text-gray-400 md:hover:text-slate-200">Company</h6>
-          </Link> */}
-        {/*   <ul>
-        <Link to="about">
-            <li className="py-2 text-sm">About</li>
-            </Link>
-          </ul> */}
-        {/* </div> */}
-
-
-        {/*    <div>
-          <h6 className="font-medium text-gray-400">Legal</h6>
-          <ul>
-            <li className="py-2 text-sm">Claim</li>
-          </ul>
-        </div> 
-      </div>*/}
-    <div className="flex lg:flex-row mt-4 md:pt-[40%] flex-row">
-        <p className="md:text-sm md:ml-16 text-sm">© 2023 Scan´N Go. All Rights Reserved </p>
+        <div>
+          <Link to="services">
+            <h6 className="font-medium text-white md:hover:text-slate-200 ">Tjänster</h6>
+          </Link> 
+         </div> 
+         <div>
+          <Link to="about">
+            <h6 className="font-medium text-white ml-2 md:hover:text-slate-200 ">Om oss</h6>
+          </Link> 
+         </div> 
+        
+         <div>
+          <Link to="faq">
+            <h6 className="font-medium text-white ml-4 md:hover:text-slate-200 ">Faq</h6>
+          </Link> 
+         </div> 
       </div>
+   
     
-      <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%]  ">
+      <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%] text-start  ">
         <p className="text-white"> Scan´ N Go</p>
         <p className="text-white"> Stockholm</p>
         <p className="text-white"> (+46) 707 122 620 </p>
@@ -92,6 +77,9 @@ const Footer = () => {
         <a className='text-white underline underline-offset-8  absolute mr-32' href="mailto:info@scanngo.se">info@scanngo.se</a>
 
         </div>
+      </div>
+        <div className="flex lg:flex-row  md:flex-row ">
+        <p className="md:text-sm text-gray-400 sm: text-xs text-start mt-8">© 2023 Scan´N Go. All Rights Reserved </p>
       </div>
     </div>
 
