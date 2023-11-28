@@ -12,6 +12,8 @@ import NotFound from './pages/NotFound';
 import Scroll from './components/Scroll';
 import OurfoodInfo from './pages/OurfoodInfo';
 import foods from './components/foodsData'
+import Faq from './pages/Faq';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -20,15 +22,17 @@ function App() {
          <BrowserRouter>
 
          <div className='App'>
+         <ScrollToTop />
          <Navbar />
            <div className='content'>
              <Routes>
               <Route path='/' element={<Home />} />
                <Route path='/ourfood' element={<Ourfood />} />
                <Route path='/ourfood/:id' element={<OurfoodInfo   foods={foods}/>} />
-             <Route path='services' element={<Services />} /> 
-             <Route path='about' element={<About />} /> 
+                <Route path='services' element={<Services />} /> 
+                <Route path='about' element={<About />} /> 
                 <Route path='/contact' element={<Contact />} /> 
+                <Route path='/faq' element={<Faq />} /> 
                 <Route path='*' element={<NotFound />} />
              </Routes>
            </div>

@@ -1,10 +1,8 @@
 
 
 const About = () => {
-  return (
-
   
-    
+  return (    
     <div className="w-full py-16 px-10  mt-28 4xl:pr-[23%]">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-12">
         <img
