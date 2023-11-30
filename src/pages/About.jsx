@@ -4,13 +4,13 @@ const About = () => {
   
   return (    
     <div className="w-full py-16 px-10  mt-28 4xl:pr-[23%]">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-12">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
         <img
           src="./images/about.jpg" 
           alt="A computer"
-          className="w-[100%] h-[100%] mx-auto bg-white relative object-fit rounded-lg sm: ml-8 "
+          className="w-[100%] h-[100%] mx-auto bg-white relative object-fit rounded-lg sm: mx-auto  "
         />
-        <div className="flex flex-col justify-center pl-8 sm: ml-6">
+        <div className="flex flex-col justify-center px-4 mx-auto sm: mt-4">
           <p className="text-green-700  uppercase font-bold">
             Scan´n Go
           </p>
