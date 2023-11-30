@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-       <div className="grid grid-flow-row-dense grid-cols-5 my-auto    text-start">
+       <div className="md:grid grid-flow-row-dense grid-cols-5 my-auto text-start">
 
         <div>
           <Link to='/ourfood'>
@@ -51,23 +51,23 @@ const Footer = () => {
 
         <div>
           <Link to="services">
-            <h6 className="font-medium text-white md:hover:text-slate-200 ">Tjänster</h6>
+            <h6 className="font-medium text-white hover:text-slate-200 ">Tjänster</h6>
           </Link> 
          </div> 
          <div>
           <Link to="about">
-            <h6 className="font-medium text-white ml-2 md:hover:text-slate-200 ">Om oss</h6>
+            <h6 className="font-medium text-white  hover:text-slate-200 ">Om oss</h6>
           </Link> 
          </div> 
         
          <div>
           <Link to="partners">
-            <h6 className="font-medium text-white ml-4 md:hover:text-slate-200 ">Partners</h6>
+            <h6 className="font-medium text-white  hover:text-slate-200 ">Partners</h6>
           </Link> 
          </div> 
          <div>
           <Link to="faq">
-            <h6 className="font-medium text-white ml-4 md:hover:text-slate-200 ">FAQ:s</h6>
+            <h6 className="font-medium text-white  hover:text-slate-200 ">FAQ:s</h6>
           </Link> 
          </div> 
       </div>
