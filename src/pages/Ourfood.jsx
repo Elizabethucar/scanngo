@@ -16,7 +16,7 @@ const Ourfood = () => {
                 <img
                   src={food.img}
                   className='h-18 pl-2 mt-1 md:h-22 sm:h-22'
-                  alt='logo'
+                  alt='food'
                 />
               </span>
               <Link

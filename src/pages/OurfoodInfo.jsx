@@ -23,7 +23,7 @@ const OurfoodInfo = () => {
     <span>
        <img className='w-[500px] mx-auto mt-20 object-fit hover:scale-105 duration-300' 
          src={selectedFood.img}
-         alt='logo'
+         alt='food boxes'
        /> </span> 
 
       <div name='platforms' className='w-full my-32'>

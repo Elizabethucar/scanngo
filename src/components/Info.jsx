@@ -10,7 +10,7 @@ const Info = () => {
           <span><img
             src="images/menu.jpg"
             className="h-16 pl-2 mt-1 md:h-32 sm:h-16 mx-auto "
-            alt="logo"
+            alt="menu"
           /></span>
           <h1 className='font-bold text-green-700'>Brett utbud</h1>
           <p>Med olika smaker och innehåll: kyckling, kött, fisk, pasta & vegansk</p>
@@ -19,7 +19,7 @@ const Info = () => {
           <span><img
             src="images/gluten.jpg"
             className="h-16 pl-2 mt-1 md:h-32 sm:h-16 mx-auto"
-            alt="logo"
+            alt="gluten"
           /></span>
           <h1 className='font-bold text-green-700'>Gluten- & laktosfritt</h1>
           <p>80% glutenfria matlådor 95% laktosfria matlådor</p>
@@ -28,7 +28,7 @@ const Info = () => {
           <span><img
             src="images/prot.jpg"
             className="h-16 pl-2 mt-1 md:h-32 sm:h-16 mx-auto "
-            alt="logo"
+            alt="protein"
           /></span>
           <h1 className='font-bold text-green-700'>Bra näringsvärde</h1>
           <p>Kalorier och macros (protein, kolhydrater, fett)</p>
@@ -37,7 +37,7 @@ const Info = () => {
           <span><img
             src="images/god.jpg"
             className="h-16 pl-2 mt-1 md:h-32 sm:h-16 mx-auto"
-            alt="logo"
+            alt="yummy logo"
           /></span>
           <h1 className='font-bold text-green-700'>Vällagad mat</h1>
           <p>Noga valda råvaror som sammansätts och tillagas av våra kockar</p>

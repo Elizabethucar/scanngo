@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-18 pl-0 mt-12">
           <img
             src='../images/samarbete.png'
-            alt="A server"
+            alt="two hands holding"
             className="w-[100%] h-[100%] mx-auto bg-white relative object-fit "
           />
           <div className="flex flex-col justify-center md:items-center">

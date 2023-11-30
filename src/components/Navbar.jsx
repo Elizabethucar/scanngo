@@ -15,7 +15,7 @@ const Navbar = () => {
           <span><img
             src="../images/transperant.png"
             className="h-20 pl-2 mt-2 md:h-32 sm:h-22"
-            alt="logo"
+            alt="scanngo logo"
           /></span>
         </span>
       </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <span> <img
               src="../images/scan.png"
               className="h-24 pl-12 mt-2 sm:h-12"
-              alt="logo"
+              alt="scanngo logo"
             /></span>
           </span>
         </Link>

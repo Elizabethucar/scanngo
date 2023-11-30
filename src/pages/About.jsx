@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-12">
         <img
           src="./images/about.jpg" 
-          alt="A server"
+          alt="A computer"
           className="w-[100%] h-[100%] mx-auto bg-white relative object-fit rounded-lg sm: ml-8 "
         />
         <div className="flex flex-col justify-center pl-8 sm: ml-6">

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Food= () => {
   return (
@@ -9,17 +8,17 @@ const Food= () => {
           <span><img
             src="images/walltall.jpg"
             className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
-            alt="logo"
+            alt="wallenberg"
           /></span>
             <span><img
             src="images/laxtall.jpg"
             className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
-            alt="logo"
+            alt="salmon"
           /></span>
             <span><img
             src="images/köttbtall.jpg"
             className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
-            alt="logo"
+            alt="meatballs"
           /></span>
           </div>
         </div>

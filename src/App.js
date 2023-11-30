@@ -13,6 +13,7 @@ import Scroll from './components/Scroll';
 import OurfoodInfo from './pages/OurfoodInfo';
 import foods from './components/foodsData'
 import Faq from './pages/Faq';
+import Partners from './pages/Partners';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -32,6 +33,7 @@ function App() {
                 <Route path='services' element={<Services />} /> 
                 <Route path='about' element={<About />} /> 
                 <Route path='/contact' element={<Contact />} /> 
+                <Route path='/partners' element={<Partners />} /> 
                 <Route path='/faq' element={<Faq />} /> 
                 <Route path='*' element={<NotFound />} />
              </Routes>
