@@ -237,12 +237,12 @@ const foods =[
   name:'Dricka', 
   helNamn:'Kall dricka till maten!', 
   img:'/images/drinks.png',
-  ingred:'Vitlökssås,  Curry ',
-  spec:' Vitlök: Kcal 56 , Protein 0g ,Kolhydrater 0.5g ,Fett 6g, Curry: Kcal 94 , Protein 0g , Kolhydrater 1g , Fett 10g',
-  gluten:true,
-  laktos:true,
+  ingred:'Kolsyrad läsk',
+  spec:'Dryck',
+  gluten:false,
+  laktos:false,
   vegan:false,
-  kall:false
+  kall:true
 },
 ]
 
