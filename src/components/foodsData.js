@@ -79,7 +79,7 @@ const foods =[
 
   {id: 7 ,
   name:'Bygglådan',
-  helNamn:'Kycklingfilé med ris', 
+  helNamn:'Kycklingfilé med ris (Bygglådan)', 
   img:'/images/bygg.png',
   ingred:'Grillad kycklingfilé (220g), Basmatiris (100g), Gröna bönor (5g)',
   spec:'Kcal 605, Protein 68g, Kolhydrater 63g, Fett 9',
@@ -139,7 +139,7 @@ const foods =[
 
   {id: 12 ,
   name:'Fitness',
-  helNamn:'Kycklingfilé med ris & morötter',
+  helNamn:'Kycklingfilé med ris & morötter (Fitness)',
   img:'/images/fitness.png',
   ingred:'Grillad kycklingfilé (110g), Basmatiris (130g), Morötter (80g)',
   spec:'Kcal 457, Protein 37g, Kolhydrater 66g, Fett 5',
@@ -224,7 +224,7 @@ const foods =[
 
   {id: 19 ,
   name:'Sås', 
-  helNamn:'För extra smak!', 
+  helNamn:'Sås för extra smak!', 
   img:'/images/sås.png',
   ingred:'Vitlökssås,  Curry ',
   spec:' Vitlök: Kcal 56 , Protein 0g ,Kolhydrater 0.5g ,Fett 6g, Curry: Kcal 94 , Protein 0g , Kolhydrater 1g , Fett 10g',
