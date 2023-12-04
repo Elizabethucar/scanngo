@@ -1,5 +1,6 @@
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
+import {FaPhoneFlip} from "react-icons/fa6"
 
 
 const Contact = () => {
@@ -21,12 +22,22 @@ const Contact = () => {
             <h1 className="md:text-4xl sm:text-3xl  text-2xl font-bold py-2">
               Jonas
             </h1>
-            <p>
-              Tel: +46 707 122 620 
-            </p>
-            <p>
-              Tel: +46 708 802 306 <span><p>eller</p></span>
-            </p>
+          
+            <p className="text-center">
+            <span className="inline-block mt-2 mx-1 animate-bounce">
+              <FaPhoneFlip  />
+            </span>
+            <span className="inline-block"> +46 707 122 620</span>
+           
+          </p>
+          <p className="text-center">
+            <span className="inline-block mt-2 mx-1 animate-bounce">
+              <FaPhoneFlip  />
+            </span>
+            <span className="inline-block"> +46 708 802 306</span>
+           
+          </p>
+          
             <ReCAPTCHA className="ml-8 mt-8"
                   sitekey="6LdH9F4iAAAAAGuqxAVOwTGsRTIa0YDpFJ8f6Ii3"
                   onChange={() => setCaptcha(!captcha)}

@@ -72,7 +72,7 @@ const Carousel = () => {
       </div>
       <div className="bg mt-4 flex justify-center bg-white">
         <button
-          className="rounded-l bg-gray-500 px-4 py-2 font-bold text-white hover:bg-gray-700"
+          className="rounded-l bg-green-600 px-4 py-2 font-bold text-white hover:bg-gray-700"
           onClick={goToPrevSlide}
         >
           Previous
@@ -80,8 +80,8 @@ const Carousel = () => {
         {slides.map((_, index) => (
           <button
             key={index}
-            className={`bg-gray-500 px-4 py-2 font-bold text-white hover:bg-gray-700 ${
-              index === currentSlide ? "bg-gray-900" : ""
+            className={`bg-green-600 px-4 py-2 font-bold text-white hover:bg-gray-700 ${
+              index === currentSlide ? "bg-green-700" : ""
             }`}
             onClick={() => goToSlide(index)}
           >
@@ -89,7 +89,7 @@ const Carousel = () => {
           </button>
         ))}
         <button
-          className="rounded-r bg-gray-500 px-4 py-2 font-bold text-white hover:bg-gray-700"
+          className="rounded-r bg-green-600 px-4 py-2 font-bold text-white hover:bg-gray-700"
           onClick={goToNextSlide}
         >
           Next

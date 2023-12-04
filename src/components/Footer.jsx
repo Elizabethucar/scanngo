@@ -1,11 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import {
-  FaInstagram,
-  FaTwitterSquare,
-  FaLinkedinIn,
-
-} from "react-icons/fa"
+import {FaInstagram, FaLinkedinIn} from "react-icons/fa"
+import {FaXTwitter} from "react-icons/fa6"
 
 
 const Footer = () => {
@@ -28,14 +24,14 @@ const Footer = () => {
 
 
         <div className="flex mt-2">
-          <Link to="https://linkedin.com/">
+          <Link to="https://www.linkedin.com/in/scanngo-p%C3%A5-jobbet-bb4a62188/">
             <FaLinkedinIn size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
           <Link to="https://www.instagram.com/scaneatgo">
             <FaInstagram size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
-          <Link to="https://twitter.com/">
-            <FaTwitterSquare size={30} className="mr-4 hover:scale-110 duration-300" />
+          <Link to="https://twitter.com/Scanngo_sthlm">
+            <FaXTwitter size={30} className="mr-4 hover:scale-110 duration-300" />
           </Link>
          
         </div>
