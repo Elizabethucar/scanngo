@@ -56,7 +56,7 @@ const Ourfood = () => {
             </div>
           ))
         ) : (
-          <p className='font-bold text-green-600 text-4xl'>Hittade ingen mat.</p>
+          <p className='font-bold text-green-600 text-4xl'>Hittade ingen mat...</p>
         )}
       </div>
     </div>

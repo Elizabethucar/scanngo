@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
 
-       <div className="md:grid grid-flow-row-dense grid-cols-5 my-auto text-start">
+       <div className="md:grid grid-flow-row-dense grid-cols-5 my-auto text-start md:ml-12">
 
         <div>
           <Link to='/ourfood'>
@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
    
     
-      <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%] text-start  ">
+      <div className=" lg:mt-28 lg:ml-20 md:pt-12 md:ml-[49%] text-start md:text-end ">
         <p className="text-white"> Scan´ N Go</p>
         <p className="text-white"> Stockholm</p>
         <p className="text-white"> (+46) 707 122 620 </p>
