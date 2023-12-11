@@ -41,7 +41,7 @@ const OurfoodInfo = () => {
             </div>
            
             <div>
-            <h3 className='text-lg'>Inehåll</h3>
+            <h3 className='text-lg'>Innehåll</h3>
        <ul className='list-disc pl-4'>
         {selectedFood.ingred.split(',').map((item, index) => (
         <li key={index}>{item.trim()}</li>
