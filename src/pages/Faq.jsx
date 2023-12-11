@@ -26,7 +26,7 @@ const Faq = () => {
           </div>}
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv2(!showdiv2)}}>Hur fungerar leveransen?</button>
        { showdiv2 &&  <div>
-          <p className='text-black'> Till privatpersoner har vi leverans varje Söndag och då måste beställningen läggas på Fredag innan kl 12. För företag gör vi leverans på Måndagar och även där bör beställningen läggas Fredag innan kl 12.
+          <p className='text-black'> Till privatpersoner levererar vi varje Söndag och beställningen ska läggas på Fredag innan kl 12. Till företag levererar vi på Måndagar och beställningen ska läggas på Fredag innan kl 12.
           </p>
           </div>}
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv3(!showdiv3)}}>Hur länge håller matlådorna?</button>
@@ -36,7 +36,7 @@ const Faq = () => {
           </div>}
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv4(!showdiv4)}}>Hur lång tid ska matlådorna värmas?</button>
        { showdiv4 &&  <div>
-          <p className='text-black'> Matlådorna ska värmas i 2 min i microvågsugn på 800W. Vissa av våra matlådor kan ätas kalla.
+          <p className='text-black'> Matlådorna ska värmas i 2 min i microvågsugn på 800W. Vissa av våra matlådor kan ätas kalla (se meny).
           </p>
           </div>}
 

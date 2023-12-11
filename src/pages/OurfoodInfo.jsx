@@ -15,9 +15,6 @@ const OurfoodInfo = () => {
   }
 
   return (
-
-
-
     <div className='w-full bg-white py-12 px-12 '>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2  rounded-3xl pr-3'>
     <span>
@@ -69,8 +66,6 @@ const OurfoodInfo = () => {
             <div>
               <FcCheckmark className='w-7 mr-1 mt-1 ' />
             </div>
-    
-
             <div>
              { selectedFood.gluten &&<h3 className='font-bold text-lg'>Glutenfri</h3>}
              { selectedFood.laktos &&<h3 className='font-bold text-lg'>Laktosfri</h3>}

@@ -151,7 +151,7 @@ const foods =[
 
   {id: 13 ,
   name:'Lax med Potatis',
-  helNamn:'Laxfilé med potatis & sås',
+  helNamn:'Laxfilé/fisk med potatis & sås',
   img:'/images/lax.png',
   ingred:'Laxfilé (120g), Ugnsrostad potatis (150g), Vitlökssås',
   spec:'Kcal 495, Protein 25g, Kolhydrater 29g, Fett 31',
