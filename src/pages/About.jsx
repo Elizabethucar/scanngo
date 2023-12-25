@@ -21,7 +21,7 @@ const About = () => {
             
 Vi är två vänner med omfattande erfarenhet av egen företagsverksamhet inom data och kapitalbranschen. Nu tar vi steget mot att skapa mervärde på arbetsplatsen, 
 något vi själva upplevde som bristande när vi var anställda. Vi strävar efter att skapa en arbetsmiljö där trivsel står i fokus och där vi, 
-genom vår erfarenhet, ger arbetsgivaren möjlighet att skapa mervärde både för sitt företag och dess anställda. Vi vänder oss mot föratag och privatpersoner.
+genom vår erfarenhet, ger arbetsgivaren möjlighet att skapa mervärde både för sitt företag och dess anställda. Vi vänder oss mot företag och privatpersoner.
 Vi kan skräddarsy lösningar efter ert behov, bara fantasin som sätter gränser.
           </p>
           <a
