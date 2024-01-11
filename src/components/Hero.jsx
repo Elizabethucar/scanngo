@@ -5,10 +5,10 @@ const Hero = () => {
  
     <div className="pt-0 flex flex-col relative pb-16 mb-12 mt-12 ">
     <div>
-        <img src="./images/knife.jpg" alt="knife on board" className='absolute opacity-70 w-full h-[100%] object-cover
+        <img src="./images/knife.jpg" alt="knife on board" className='fixed opacity-70 w-full h-[100%] object-cover z-0
         ' />
         </div>
-        <div className="flex flex-col justify-center p-8">
+        <div className="flex flex-col justify-center p-8 ">
         <h1 className="md:text-5xl sm:text-3xl mt-36  text-orange-700 text-4xl font-bold py-2 z-0">
               Scan´N Go
             </h1>

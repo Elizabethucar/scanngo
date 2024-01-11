@@ -3,7 +3,7 @@ import React from 'react'
 const Info = () => {
 
   return (
-    <div className='bg-slate-200 mb-12'>
+    <div className='bg-slate-200 mb-12 relative'>
         <div className='w-full py-8 text-[#0D124B] px-4'>
           <div className='max-w-[1240px] mx-auto grid lg:grid-cols-4 relative items-center'>
           <div className='text-center font-medium mr-4'>

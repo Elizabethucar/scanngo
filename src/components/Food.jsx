@@ -2,7 +2,7 @@ import React from 'react'
 
 const Food= () => {
   return (
-    <div className='bg-gradient-to-l from-[#06632e]  to-[#9dc7ae] '>
+    <div className='bg-gradient-to-l from-[#06632e]  to-[#9dc7ae] relative '>
         <div className='w-full py-16 text-[#0D124B] px-4'>
           <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 relative'>
           <span><img
