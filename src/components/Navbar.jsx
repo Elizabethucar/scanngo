@@ -58,7 +58,7 @@ const Navbar = () => {
           </li>
         </ul>
       </ul>
-      <div className="flex fixed flex-col items-end top-[55%] right-[-13%] md:right-[-8%] lg:right-[-4%] transform rotate-90">
+      <div className="flex fixed flex-col items-end top-[55%] right-[-14%] md:right-[-8%] lg:right-[-4%] transform rotate-90">
   <ul>
     <li>
       <a href="/contact" className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white mt-32 rounded-md font-medium my-6 mx-auto px-6 py-3 z-0 transform rotate-90">
