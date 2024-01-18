@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams , Link} from 'react-router-dom';
 import foods from '../components/foodsData';  
 import { FcCheckmark } from "react-icons/fc";
+import { Fade } from 'react-reveal';
 
 const OurfoodInfo = () => {
   const { id } = useParams();
@@ -16,6 +17,7 @@ const OurfoodInfo = () => {
 
   return (
     <div className='w-full bg-white py-12 px-12 '>
+       <Fade left cascade>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2  rounded-3xl pr-3'>
     <span>
        <img className='w-[500px] mx-auto mt-20 object-fit hover:scale-105 duration-300' 
@@ -87,6 +89,7 @@ const OurfoodInfo = () => {
         </div>
       </div>
       </div>
+      </Fade>
       </div>
     
     );

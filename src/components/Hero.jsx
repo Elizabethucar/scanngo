@@ -1,3 +1,4 @@
+import { Fade } from 'react-reveal';
 
 const Hero = () => {
   return (
@@ -9,6 +10,7 @@ const Hero = () => {
         ' />
         </div>
         <div className="flex flex-col justify-center p-8 ">
+          <Fade left cascade>
         <h1 className="md:text-5xl sm:text-3xl mt-36  text-orange-700 text-4xl font-bold py-2 z-0">
               Scan´N Go
             </h1>
@@ -25,7 +27,7 @@ const Hero = () => {
             >
               Meny
             </a>
-    
+            </Fade>
        </div>
        </div>
   )
