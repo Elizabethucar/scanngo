@@ -3,10 +3,17 @@ import React from 'react';
 import { useParams , Link} from 'react-router-dom';
 import foods from '../components/foodsData';  
 import { FcCheckmark } from "react-icons/fc";
-import { Fade } from 'react-reveal';
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
+
 
 const OurfoodInfo = () => {
   const { id } = useParams();
+
+  useEffect(()=>{
+    AOS.init({duration:1500})
+  })
 
   // Find the selected food item based on the route parameter, ex id or name
   const selectedFood = foods.find((food) => food.id.toString() === id);
@@ -15,9 +22,10 @@ const OurfoodInfo = () => {
     return <div>No information available.</div>;
   }
 
+
   return (
-    <div className='w-full bg-white py-12 px-12 '>
-       <Fade left cascade>
+    <div data-aos="fade-left" className='w-full bg-white py-12 px-12 '>
+     
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2  rounded-3xl pr-3'>
     <span>
        <img className='w-[500px] mx-auto mt-20 object-fit hover:scale-105 duration-300' 
@@ -89,7 +97,6 @@ const OurfoodInfo = () => {
         </div>
       </div>
       </div>
-      </Fade>
       </div>
     
     );

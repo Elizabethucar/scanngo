@@ -1,6 +1,12 @@
-import { Fade } from 'react-reveal';
+
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const Hero = () => {
+  useEffect(()=>{
+    AOS.init({duration:1200})
+  })
   return (
 
  
@@ -9,8 +15,7 @@ const Hero = () => {
         <img src="./images/knife.jpg" alt="knife on board" className='fixed opacity-70 w-full h-[100%] object-cover z-0
         ' />
         </div>
-        <div className="flex flex-col justify-center p-8 ">
-          <Fade left cascade>
+        <div  data-aos="fade-up"className="flex flex-col justify-center p-8">
         <h1 className="md:text-5xl sm:text-3xl mt-36  text-orange-700 text-4xl font-bold py-2 z-0">
               Scan´N Go
             </h1>
@@ -27,7 +32,6 @@ const Hero = () => {
             >
               Meny
             </a>
-            </Fade>
        </div>
        </div>
   )
