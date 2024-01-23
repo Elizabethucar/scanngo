@@ -24,7 +24,7 @@ const OurfoodInfo = () => {
 
 
   return (
-    <div data-aos="fade-left" className='w-full bg-white py-12 px-12 '>
+    <div data-aos="zoom-in" className='w-full bg-white py-12 px-12 '>
      
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2  rounded-3xl pr-3'>
     <span>

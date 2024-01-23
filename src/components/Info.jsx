@@ -1,10 +1,17 @@
 import React from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const Info = () => {
+  
+  useEffect(()=>{
+    AOS.init({duration:1200})
+  })
 
   return (
     <div className='bg-slate-200 mb-12 relative'>
-        <div className='w-full py-8 text-[#0D124B] px-4'>
+        <div data-aos="zoom-in" className='w-full py-8 text-[#0D124B] px-4'>
           <div className='max-w-[1240px] mx-auto grid lg:grid-cols-4 relative items-center'>
           <div className='text-center font-medium mr-4'>
           <span><img

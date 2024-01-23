@@ -3,7 +3,7 @@ import React from 'react'
 
 const Mera = () => {
   return (
-    <div className='w-full bg-white py-16 px-12 relative'>
+    <div  className='w-full bg-white py-16 px-12 relative'>
         <div className='flex flex-col justify-center'>
           <p className='text-[#06632e] uppercase font-bold text-3xl '>Scan´n Go</p>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold  py-2 text-black'>Vi förenklar din arbetsdag!</h1>

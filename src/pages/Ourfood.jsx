@@ -21,6 +21,7 @@ const Ourfood = () => {
       return false;
     }
   });
+
   useEffect(()=>{
     AOS.init({duration:1200})
   })

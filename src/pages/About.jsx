@@ -1,11 +1,17 @@
-
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const About = () => {
+  
+  useEffect(()=>{
+    AOS.init({duration:1200})
+  })
   
   return (    
     <div className="w-full py-16 px-10  mt-28 4xl:pr-[23%]">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
-        <img
+        <img data-aos="flip-left"
           src="./images/about.jpg" 
           alt="A computer"
           className="w-[100%] h-[100%] mx-auto bg-white relative object-fit rounded-lg sm: mx-auto  "

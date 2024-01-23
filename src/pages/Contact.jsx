@@ -1,10 +1,16 @@
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
 import {FaPhoneFlip} from "react-icons/fa6"
-
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const Contact = () => {
   const [captcha, setCaptcha] = useState(false);
+
+  useEffect(()=>{
+    AOS.init({duration:1500})
+  })
 
   return (
     
@@ -15,7 +21,7 @@ const Contact = () => {
             alt="two hands holding"
             className="w-[100%] h-[100%] mx-auto bg-white relative object-fit "
           />
-          <div className="flex flex-col justify-center md:items-center">
+          <div data-aos="zoom-in" className="flex flex-col justify-center md:items-center">
             <p className="text-[#06632e]  uppercase font-bold">
               Kontakta oss
             </p>

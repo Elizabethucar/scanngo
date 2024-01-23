@@ -1,10 +1,18 @@
 import Mera from './Mera'
+import AOS from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const Services = () => {
+
+  useEffect(()=>{
+    AOS.init({duration:1500})
+  })
+
   return (
 
  <>
- <div className="pt-0 flex flex-col relative pb-16 mb-30 mt-12 ">
+ <div data-aos="fade-up" className="pt-0 flex flex-col relative pb-16 mb-30 mt-12 ">
     <div>
         <img src="./images/spice.jpg" alt="branches" className='absolute opacity-50 w-full h-[100%] object-cover
         ' />
