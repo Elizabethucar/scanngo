@@ -9,7 +9,7 @@ const About = () => {
   })
   
   return (    
-    <div className="w-full py-16 px-10  mt-28 4xl:pr-[23%]">
+    <div className="w-full py-16 px-10 mt-32 4xl:pr-[23%] mb-24">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
         <img data-aos="flip-left"
           src="./images/about.jpg" 
