@@ -27,7 +27,7 @@ const Ourfood = () => {
   })
 
   return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up ">
    
       <h2 className='text-5xl font-bold font-mono text-center mt-32 text-green-600'>Meny</h2>
       <button className='rounded-full bg-green-600 text-white px-4 py-10 text-5xl mt-16 mb-16 hover:scale-105 duration-300'>89kr</button>
@@ -41,7 +41,7 @@ const Ourfood = () => {
         }}
       />
       </div>
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-16 '>
+      <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-16 mb-12 '>
         {filteredFoods.length > 0 ? (
           filteredFoods.map((food, key) => (
             <div key={key} className='w-full shadow-2xl shadow-green-700 flex flex-col p-4 my-4 pb-12 rounded-lg hover:scale-105 duration-300'>
