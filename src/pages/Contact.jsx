@@ -14,13 +14,13 @@ const Contact = () => {
 
   return (
     
-   <div className="flex flex-col relative pb-36 md:mb-28 mt-18 ">
-    <div>
-        <img src="./images/transperant.png" alt="scanngo logo" className='absolute opacity-10 w-full h-[130%] object-cover z-0
+   <div className="flex flex-col relative   ">
+    <div className="">
+        <img src="./images/transperant.png" alt="scanngo logo" className='absolute opacity-10 w-full h-[140%] object-fill z-0 pb-20
         ' />
         </div>
-        <div data-aos="zoom-in" className="flex flex-col justify-center md:items-center mt-24">
-        <p className="text-[#06632e] uppercase font-bold mt-64 md:mt-42 pt-36">
+        {<div data-aos="zoom-in" className="flex flex-col justify-center md:items-center md:w-full h-[100%]">
+        <p className="text-[#06632e] uppercase font-bold mt-72 md:mt-48 md:pt-32 md:mb-3">
               Kontakta oss
             </p>
             <h1 className="md:text-4xl sm:text-3xl  text-2xl font-bold py-2">
@@ -48,20 +48,20 @@ const Contact = () => {
                 />
                 {!captcha ? (
                  <a
-                 className="bg-green-700 text-[#FFFFFF] pointer-events-none rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-orange-600"
+                 className="bg-green-700 text-[#FFFFFF] pointer-events-none rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-orange-600 mb-36"
                  href="mailto:info@scanngo.se"
                >
                  Skicka email
                </a>
                 ) : (
                   <a
-                  className="bg-green-600 text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3 hover:bg-orange-600"
+                  className="bg-green-600 text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3 hover:bg-orange-600 mb-36"
                   href="mailto:info@scanngo.se"
                 >
                   Skicka email
                 </a>
                 )}
-       </div>
+       </div>}
        </div>
      
 
