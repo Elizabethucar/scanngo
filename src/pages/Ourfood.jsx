@@ -27,8 +27,7 @@ const Ourfood = () => {
   })
 
   return (
-    <div data-aos="fade-up ">
-   
+    <div data-aos="fade-up">
       <h2 className='text-5xl font-bold font-mono text-center mt-32 text-green-600'>Meny</h2>
       <button className='rounded-full bg-green-600 text-white px-4 py-10 text-5xl mt-16 mb-16 hover:scale-105 duration-300'>89kr</button>
       <div>

@@ -2,7 +2,21 @@
 
 
 const foods =[
-  {id:1 , 
+
+  {id: 1 , 
+    name:'Röd Curry med Kyckling',
+    helNamn:'Kycklinggryta Röd-curry med ris',
+    ingred:'Kycklinggryta (250g), Basmatiris (150g)',
+    spec:'Kcal 689, Protein 47.5g, Kolhydrater 38g, Fett 25g, Kolhydrater 68.5g',
+    img:'/images/kycklingcurry.png',
+    pris: 89,
+    gluten:true,
+    laktos:true,
+    vegan:false,
+    kall:false
+   },
+
+  {id:2 , 
    name:'Wallenberg',
    helNamn:'Wallenbergare med potatismos',
    ingred:'Wallenberg (130g), Potatismos (120g), Brunsås (80g), Lingonsylt (20g)',
@@ -15,7 +29,7 @@ const foods =[
    kall:false
   },
 
-  {id:2 ,
+  {id: 3 ,
    name:'Köttbullar',
    helNamn:'Köttbullar(Nöt)',
    ingred:'Köttbullar 8st (112g), Potatismos (120g), Brunsås (80g)',
@@ -28,7 +42,7 @@ const foods =[
     kall:false
   },
 
-  {id:3 ,
+  {id: 4 ,
    name:'Kyckling Curry-pasta',
    helNamn:'Kyckling Curry-pasta',
    mat:'Kyckling', 
@@ -41,7 +55,7 @@ const foods =[
    kall:true
   
   },
-  {id:4 ,
+  {id: 5 ,
   name:'Spicy Tuna pasta',
   helNamn:'Kall pasta med tonfiskröra',
   img:'/images/tuna.png',
@@ -53,7 +67,7 @@ const foods =[
   kall:true
     },
 
-  {id:5 ,
+  {id: 6 ,
    name:'Kyckling Tikka Masala',
    helNamn:'Indisk kycklinggryta med ris', 
    img:'/images/tikka.png',
@@ -65,7 +79,7 @@ const foods =[
    kall:false
   },
 
-  {id:6 ,
+  {id: 7 ,
    name:'Teriyaki', 
    helNamn:'Nötfärs (teriyaki) med ris',
    img:'/images/teriyaki.png',
@@ -77,7 +91,7 @@ const foods =[
    kall:false
   },
 
-  {id: 7 ,
+  {id: 8 ,
   name:'Bygglådan',
   helNamn:'Kycklingfilé med ris (Bygglådan)', 
   img:'/images/bygg.png',
@@ -89,7 +103,7 @@ const foods =[
   kall:false
   },
 
-  {id: 8 ,
+  {id: 9 ,
   name:'Stroganoff',
   helNamn:'Korvstroganoff med ris (Fläskfri, gjord på kyckling & nötkött) ', 
   img:'/images/stoganoff.png',
@@ -101,7 +115,7 @@ const foods =[
   kall:false
   },
 
-  {id: 9 ,
+  {id: 10 ,
   name:'Thaigrytan',
   helNamn:'Thai-kycklinggryta med ris',
   img:'/images/thai.png',
@@ -113,7 +127,7 @@ const foods =[
   kall:false
   },
 
-  {id: 10 ,
+  {id: 11 ,
   name:'Taco', 
   helNamn:'Nötfärs (taco) med ris', 
   img:'/images/taco.png',
@@ -125,7 +139,7 @@ const foods =[
   kall:false
 },
 
-  {id: 11 ,
+  {id: 12 ,
    name:'Taco+',
    helNamn:'Nötfärs (taco) med ris',
    img:'/images/taco+.png',
@@ -137,7 +151,7 @@ const foods =[
    kall:false
   },
 
-  {id: 12 ,
+  {id: 13 ,
   name:'Fitness',
   helNamn:'Kycklingfilé med ris & morötter (Fitness)',
   img:'/images/fitness.png',
@@ -149,7 +163,7 @@ const foods =[
   kall:false
   },
 
-  {id: 13 ,
+  {id: 14 ,
   name:'Lax med Potatis',
   helNamn:'Laxfilé/fisk med potatis & sås',
   img:'/images/lax.png',
@@ -161,7 +175,7 @@ const foods =[
   kall:false
   },
 
-  {id: 14 ,
+  {id: 15 ,
   name:'Högrevsgryta',
   helNamn:'Högrevsgryta med ris',
   img:'/images/högrev.png',
@@ -173,7 +187,7 @@ const foods =[
   kall:false
   },
 
-  {id: 15 ,
+  {id: 16 ,
    name:'Bolognese by Daki',
    helNamn:'Spaghetti bolognese',
    img:'/images/bolognese.png',
@@ -185,7 +199,7 @@ const foods =[
    kall:false
   },
 
-  {id: 16,
+  {id: 17,
   name:'Proteinlasagne', 
   helNamn:'Lasagne med nötfärs', 
   img:'/images/proteinlas.png',
@@ -198,7 +212,7 @@ const foods =[
   protein: true
   },
 
-  {id: 17 ,
+  {id: 18 ,
    name:'Vegobullar', 
    helNamn:'Vegobullar med potatismos', 
    img:'/images/vego.png',
@@ -210,7 +224,7 @@ const foods =[
    kall:false
   },
 
-  {id: 18 ,
+  {id: 19 ,
    name:'Falafel', 
    helNamn:'Falafel med bulgur', 
    img:'/images/falafel.png',
@@ -222,7 +236,7 @@ const foods =[
    kall:true
   },
 
-  {id: 19 ,
+  {id: 20 ,
   name:'Sås', 
   helNamn:'Sås för extra smak!', 
   img:'/images/sås.png',
@@ -233,7 +247,7 @@ const foods =[
   vegan:false,
   kall:false
 },
-{id: 20 ,
+{id: 21 ,
   name:'Dricka', 
   helNamn:'Kall dricka/läsk till maten!', 
   img:'/images/drinks.png',

@@ -14,15 +14,13 @@ const Contact = () => {
 
   return (
     
-     
-        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mr-18 pl-0 mt-12">
-          <img
-            src='../images/samarbete.png'
-            alt="two hands holding"
-            className="w-[100%] h-[100%] mx-auto bg-white relative object-fit "
-          />
-          <div data-aos="zoom-in" className="flex flex-col justify-center md:items-center">
-            <p className="text-[#06632e]  uppercase font-bold">
+   <div className="flex flex-col relative pb-36 md:mb-28 mt-18 ">
+    <div>
+        <img src="./images/transperant.png" alt="scanngo logo" className='absolute opacity-10 w-full h-[130%] object-cover z-0
+        ' />
+        </div>
+        <div data-aos="zoom-in" className="flex flex-col justify-center md:items-center mt-24">
+        <p className="text-[#06632e] uppercase font-bold mt-64 md:mt-42 pt-36">
               Kontakta oss
             </p>
             <h1 className="md:text-4xl sm:text-3xl  text-2xl font-bold py-2">
@@ -44,7 +42,7 @@ const Contact = () => {
            
           </p>
           
-            <ReCAPTCHA className="ml-8 mt-8"
+            <ReCAPTCHA className="ml-16 mt-8 md:ml-8"
                   sitekey="6LdH9F4iAAAAAGuqxAVOwTGsRTIa0YDpFJ8f6Ii3"
                   onChange={() => setCaptcha(!captcha)}
                 />
@@ -57,15 +55,14 @@ const Contact = () => {
                </a>
                 ) : (
                   <a
-                  className="bg-green-600 text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3  hover:bg-orange-600"
+                  className="bg-green-600 text-[#FFFFFF] rounded-md font-medium my-14 mx-auto px-6 py-3 hover:bg-orange-600"
                   href="mailto:info@scanngo.se"
                 >
                   Skicka email
                 </a>
                 )}
-           
-          </div>
-        </div>
+       </div>
+       </div>
      
 
   )
