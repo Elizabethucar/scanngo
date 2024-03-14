@@ -6,7 +6,7 @@ const Partners = () => {
 
 
   return (
-    <div className="w-full py-16 px-10  mt-10 4xl:pr-[23%]">
+    <div className="w-full py-16 px-10  mt-24 4xl:pr-[23%]">
      
         <div className="flex flex-col justify-center sm: mx-auto ">
           <p className="text-green-700  uppercase font-bold">
