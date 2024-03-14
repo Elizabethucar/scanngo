@@ -23,6 +23,10 @@ function App() {
          <BrowserRouter>
 
          <div className='App'>
+         <meta
+      name="description"
+      content="Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen!"
+    />
          <ScrollToTop />
          <Navbar />
            <div className='content'>
