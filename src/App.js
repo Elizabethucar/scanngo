@@ -28,6 +28,7 @@ function App() {
       name="description"
       content="Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen!"
     />
+     <link rel="scanngo" href="https://www.scanngo.se/" />
     </Helmet>
          <ScrollToTop />
          <Navbar />
