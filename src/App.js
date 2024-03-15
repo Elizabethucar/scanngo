@@ -24,11 +24,15 @@ function App() {
 
          <div className='App'>
           <Helmet>
-         <meta
-      name="Scanngo"
-      content="Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen!"
-    />
-     <link rel="scanngo" href="https://www.scanngo.se/" />
+          <title>Scanngo - Hemlagad mat på jobbet.</title>
+        <meta
+          name="description"
+          content="SCANNGO Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen.."
+        ></meta>
+        <meta
+          name="keywords"
+          content="Scanngo, Matlådor, Färsk mat, Mat på jobbet, Nyttigt, Scan´nGo, Meny, Energi"
+        ></meta>
     </Helmet>
          <ScrollToTop />
          <Navbar />
