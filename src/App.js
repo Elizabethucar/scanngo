@@ -15,7 +15,7 @@ import foods from './components/foodsData'
 import Faq from './pages/Faq';
 import Partners from './pages/Partners';
 import ScrollToTop from './components/ScrollToTop';
-
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
@@ -23,10 +23,12 @@ function App() {
          <BrowserRouter>
 
          <div className='App'>
+          <Helmet>
          <meta
       name="description"
       content="Spara tid och pengar med färdiga matlådor som levereras till jobbet! Njut av god mat och håll energin uppe under hela dagen!"
     />
+    </Helmet>
          <ScrollToTop />
          <Navbar />
            <div className='content'>
