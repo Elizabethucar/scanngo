@@ -15,11 +15,11 @@ import foods from './components/foodsData'
 import Faq from './pages/Faq';
 import Partners from './pages/Partners';
 import ScrollToTop from './components/ScrollToTop';
-import {Helmet} from "react-helmet";
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 function App() {
   return (
-
+<HelmetProvider>
          <BrowserRouter>
 
          <div className='App'>
@@ -54,6 +54,7 @@ function App() {
            <Footer />
          </div>
          </BrowserRouter>
+         </HelmetProvider>
   );
 }
 
