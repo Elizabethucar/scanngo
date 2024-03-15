@@ -21,8 +21,9 @@ const Contact = () => {
     AOS.init({duration:1500})
   })
   return (
-    <div className="w-full py-16 px-10 mt-32 mx-auto 4xl:pr-[23%] mb-24 grid md:grid-cols-2 gap-8">
+    <div className="w-full px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-24 mb-24">
   <div className="divide-y divide-neutral-900 border border-neutral-900">
+
     <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
       <div className="grid grid-cols-2 divide-x divide-neutral-900">
         <LinkBox Icon={FcDepartment} href="#" />
