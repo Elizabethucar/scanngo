@@ -23,7 +23,7 @@ const Faq = () => {
 
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white  rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv(!showdiv)}}>Vart leverar ni?</button>
        { showdiv &&  <div>
-          <p  data-aos="flip-up" className='text-black py-2'> Vi levererar inom hela Stockholmsområdet.
+          <p  data-aos="flip-up" className='text-black py-2'> Vi levererar inom hela Stockholmsområdet och Södertälje.
           </p>
           </div>}
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white  rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv1(!showdiv1)}}>Hur beställer jag matlådor?</button>
@@ -33,7 +33,7 @@ const Faq = () => {
           </div>}
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv2(!showdiv2)}}>Hur fungerar leveransen?</button>
        { showdiv2 &&  <div>
-          <p data-aos="flip-up" className='text-black py-2'> Till privatpersoner levererar vi varje Söndag och beställningen ska läggas på Fredag innan kl 12. Till företag levererar vi på Måndagar och beställningen ska läggas på Fredag innan kl 12.
+          <p data-aos="flip-up" className='text-black py-2'> Till privatpersoner levererar vi varje Måndag eftermiddag och beställningen ska läggas på Fredag innan kl 12. Till företag levererar vi på Tisdagar och beställningen ska läggas på Fredag innan kl 12.
           </p>
           </div>}
           <button className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0" onClick={()=>{setShowdiv3(!showdiv3)}}>Hur länge håller matlådorna?</button>
