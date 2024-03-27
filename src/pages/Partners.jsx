@@ -22,28 +22,35 @@ const Partners = () => {
         <img
           src="./images/cygrids-logo-dark.png" 
           alt="cygrids-logo"
-          className="w-80px mx-auto bg-white relative object-fit rounded-lg mt-12  hover:scale-105 duration-300 "
+          className="w-80px mx-auto bg-white relative object-fit mt-12  hover:scale-105 duration-300 "
         />
         </Link>
         <Link to='https://www.bitsdata.se/' className='my-auto'>
         <img
-          src="./images/bitsdata.jpg" 
+          src="./images/bits.jpg" 
           alt="bitsdata-logo"
-          className="w-80px mx-auto bg-white relative object-fit rounded-lg mt-12  hover:scale-105 duration-300 "
+          className="w-80px mx-auto bg-white relative object-fit  mt-12  hover:scale-105 duration-300 "
         />
         </Link>
         <Link to='https://inknation.se/sodertalje/' className='my-auto'>
         <img
           src="./images/inknation.png" 
           alt="bitsdata-logo"
-          className="w-80px mx-auto bg-white relative object-fit rounded-lg mt-12  hover:scale-105 duration-300 "
+          className="w-80px mx-auto bg-white relative object-fit mt-12  hover:scale-105 duration-300 "
         />
         </Link>
         <Link to='https://instamate.se/' className='my-auto'>
         <img
           src="./images/instamate.png" 
           alt="bitsdata-logo"
-          className="w-80px mx-auto bg-white relative object-fit rounded-lg mt-12  hover:scale-105 duration-300 "
+          className="w-80px mx-auto bg-white relative object-fit mt-12  hover:scale-105 duration-300 "
+        />
+        </Link>
+        <Link to='https://www.hsb.se/sodertalje/' className='my-auto'>
+        <img
+          src="./images/hsb.jpg" 
+          alt="hsb-logo"
+          className="w-80px mx-auto bg-white relative object-fit  mt-16  hover:scale-105 duration-300 "
         />
         </Link>
       </div>
