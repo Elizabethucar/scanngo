@@ -14,6 +14,7 @@ const foods =[
     laktos:true,
     vegan:false,
     kall:false
+
    },
 
   {id:2 , 
@@ -247,6 +248,7 @@ const foods =[
   vegan:false,
   kall:false
 },
+
 {id: 21 ,
   name:'Dricka', 
   helNamn:'Kall dricka/läsk till maten!', 
@@ -257,6 +259,19 @@ const foods =[
   laktos:false,
   vegan:false,
   kall:true
+},
+
+{id: 22 ,
+  name:'Snacks', 
+  helNamn:'Snacks, fyll på med energi!', 
+  img:'/images/snacks.png',
+  ingred:'Snacks, Bars, Choklad',
+  spec:'Innehållsförtecking finns på förpackningen',
+  gluten:false,
+  laktos:false,
+  vegan:false,
+  kall:false,
+  energi: true
 },
 ]
 
