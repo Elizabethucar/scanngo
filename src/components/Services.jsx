@@ -12,7 +12,7 @@ const Services = () => {
 
   return (
     <>
-    <section className="w-full px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-24 mb-24">
+    <section className="w-full px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-32 md:mb-48">
       <div>
         <span className="block mb-4 text-md md:text-xl text-green-600 font-medium">
         Scan´n Go
@@ -20,7 +20,7 @@ const Services = () => {
         <h3 className="text-4xl md:text-6xl font-semibold">
         Våra tjänster
         </h3>
-        <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+        <p className="text-base md:text-lg text-slate-700 my-6 mb-16 md:my-6">
         Låt oss tänka på maten så att ni slipper, spara tid och pengar med våra nyttiga matlådor på jobbet!
         </p>
         <a

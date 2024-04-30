@@ -9,14 +9,14 @@ const About = () => {
   })
   
   return (    
-    <div className="w-full py-16 px-10 mt-32 4xl:pr-[23%] mb-24">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
+    <div className="w-full  md:py-36 px-10 mt-32 4xl:pr-[23%] mb-24">
+      <div className="max-w-[1240px] mx-auto grid  md:grid-cols-2 ">
         <img data-aos="flip-left"
           src="./images/about.jpg" 
           alt="A computer"
-          className="w-[100%] h-[100%] mx-auto bg-white relative object-fit rounded-lg sm: mx-auto  "
+          className="w-[100%] h-[100%] mx-auto bg-white relative object-fit rounded-lg "
         />
-        <div className="flex flex-col justify-center px-4 mx-auto sm: mt-4">
+        <div className="flex flex-col justify-center px-4 mx-auto sm: mt-16">
           <p className="text-green-700  uppercase font-bold">
             Scan´n Go
           </p>
