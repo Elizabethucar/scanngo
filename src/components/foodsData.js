@@ -165,7 +165,7 @@ const foods =[
 {id: 12 ,
   name:'Dricka', 
   helNamn:'Kall dricka/läsk till maten!', 
-  img:'/images/drinks.png',
+  img:'/images/cola.png',
   ingred:'Kolsyrad läsk',
   spec:'Dryck',
   gluten:false,
