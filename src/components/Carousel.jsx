@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 const Carousel = () => {
   const slides = [
     {
-      src: "https://images.unsplash.com/photo-1631898039954-72eb4133d235?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1678684277915-5d3f48977b87?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGJlZWYlMjBzdGVld3xlbnwwfHwwfHx8MA%3D%3D",
       caption: "Slide 1",
     },
     {
-      src: "https://images.unsplash.com/photo-1594610352113-ad218529cfb7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1676300185292-e23bb3db50fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       caption: "Slide 2",
     },
     {
@@ -15,11 +15,11 @@ const Carousel = () => {
       caption: "Slide 3",
     },
     {
-      src: "https://images.unsplash.com/photo-1519624014191-508652cbd7b5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGJlZWYlMjBmb29kfGVufDB8fDB8fHww",
+      src: "https://images.unsplash.com/photo-1580638149300-65f0b9e8fbff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fG1vemFyZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
       caption: "Slide 4",
     },
     {
-      src: "https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BpY2VzfGVufDB8fDB8fHww",
+      src: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       caption: "Slide 5",
     },
   ];
