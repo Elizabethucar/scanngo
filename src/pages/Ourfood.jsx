@@ -29,7 +29,7 @@ const Ourfood = () => {
   return (
     <div data-aos="fade-up">
       <h2 className='text-5xl font-bold font-mono text-center mt-32 text-green-600'>Meny</h2>
-      <button className='rounded-full bg-green-600 text-white px-4 py-10 text-5xl mt-16 mb-16 hover:scale-105 duration-300'>89kr</button>
+      <button className='rounded-full bg-green-600 text-white px-4 py-10 text-5xl mt-16 mb-16 hover:scale-105 duration-300'>69kr</button>
       <div>
       <input
         className="rounded-md  border border-green-600 px-4 py-2 mb-8"
@@ -45,7 +45,7 @@ const Ourfood = () => {
           filteredFoods.map((food, key) => (
             <div key={key} className='w-full shadow-2xl shadow-green-700 flex flex-col p-4 my-4 pb-12 rounded-lg hover:scale-105 duration-300'>
               <h2 className='text-2xl font-bold font-mono text-center py-8'>{food.name}</h2>
-              <div className='text-center font-medium'>
+              <div className='text-center font-medium mx-8'>
                 <span>
                   <img
                     src={food.img}

@@ -63,7 +63,7 @@ const OurfoodInfo = () => {
               <FcCheckmark className='w-7 mr-1 mt-1' />
             </div>
             <div>
-            <h3 className='text-lg'>Specifikationer</h3>
+            <h3 className='text-lg'>Specifikationer/100g</h3>
           <ul className='list-disc pl-4'>
           {selectedFood.spec.split(',').map((item, index) => (
             <li key={index}>{item.trim()}</li>
@@ -83,6 +83,8 @@ const OurfoodInfo = () => {
              { selectedFood.kall ? <h3 className='font-bold text-lg'>Serveras bäst kall</h3> : null}
              { selectedFood.protein && <h3 className='font-bold text-lg'>Högt Protein</h3>}
              { selectedFood.energi && <h3 className='font-bold text-lg'>Snabb energi</h3>}
+             { selectedFood.mikro && <h3 className='font-bold text-lg'>Micro: 3-4 min</h3>}
+             { selectedFood.tillagas && <h3 className='font-bold text-lg'>Grillas: 3-4 min</h3>}
              
             </div>
           </div>
