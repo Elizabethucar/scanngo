@@ -28,11 +28,11 @@ const Ourfood = () => {
 
   return (
     <div data-aos="fade-up">
-      <h2 className='text-5xl font-bold font-mono text-center mt-32 text-green-600'>Meny</h2>
-      <button className='rounded-full bg-green-600 text-white px-4 py-10 text-5xl mt-16 mb-16 hover:scale-105 duration-300'>69kr</button>
-      <div>
+      <h2 className='text-5xl font-bold font-mono text-center mt-32 mb-24 text-green-600'>Meny</h2>
+{/*       <button className='rounded-full bg-green-600 text-white px-4 py-10 text-5xl mt-16 mb-16 hover:scale-105 duration-300'>69kr</button>
+ */}      <div>
       <input
-        className="rounded-md  border border-green-600 px-4 py-2 mb-8"
+        className="rounded-md  border border-green-600 px-4 py-2 mb-20"
         type="text"
         placeholder="Sök en maträtt..."
         onChange={(event) => {
@@ -45,7 +45,9 @@ const Ourfood = () => {
           filteredFoods.map((food, key) => (
             <div key={key} className='w-full shadow-2xl shadow-green-700 flex flex-col p-4 my-4 pb-12 rounded-lg hover:scale-105 duration-300'>
               <h2 className='text-2xl font-bold font-mono text-center py-8'>{food.name}</h2>
+
               <div className='text-center font-medium mx-8'>
+              <button className='rounded-full bg-green-600 text-white px-2 py-6 text-4xl  hover:scale-105 duration-300'>{food.price}kr</button>
                 <span>
                   <img
                     src={food.img}

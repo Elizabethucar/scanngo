@@ -9,12 +9,12 @@ const foods =[
     ingred:'Oxfile, Pasta, Grädde, Mjölk, Lök',
     spec:'828 kJ/197 kcal, fett 11 g, kolhydrater 16 g, protein 8.9 g',
     img:'/images/oxfile.jpg',
-    pris: 69,
     gluten:false,
     laktos:false,
     vegan:false,
     kall:false,
-    mikro:true
+    mikro:true,
+    price:69
 
    },
 
@@ -24,12 +24,13 @@ const foods =[
    ingred:'Nötkött, Potatismos , Champinjoner, Lök , Grädde, Dijonsenap',
    spec:'584 kJ/140 kcal, fett 9.5 g,kolhydrater 7.1 g, protein 6 g',
    img:'/images/biffstroganoff.jpg',
-   pris: 69,
    gluten:false,
    laktos:false,
    vegan:false,
    kall:false,
-   mikro:true
+   mikro:true,
+   price:69
+   
   
   },
 
@@ -44,7 +45,8 @@ const foods =[
     laktos:false,
     vegan:false,
     kall:false,
-    mikro:true
+    mikro:true,
+    price:69
   },
 
   {id: 4 ,
@@ -58,7 +60,8 @@ const foods =[
    laktos:false,
    vegan:false,
    kall:false,
-   mikro:true
+   mikro:true,
+   price:69
   
   },
   {id: 5 ,
@@ -71,7 +74,8 @@ const foods =[
   laktos:false,
   vegan:false,
   kall:false,
-  mikro:true
+  mikro:true,
+  price:59
     },
 
   {id: 6 ,
@@ -84,7 +88,8 @@ const foods =[
    laktos:false,
    vegan:false,
    kall:false,
-   mikro:true
+   mikro:true,
+   price:59
   },
 
   {id: 7 ,
@@ -97,7 +102,8 @@ const foods =[
    laktos:false,
    vegan:false,
    kall:false,
-   mikro:true
+   mikro:true,
+   price:59
   },
 
   {id: 8 ,
@@ -110,7 +116,8 @@ const foods =[
   laktos:true,
   vegan:false,
   kall:false,
-  tillagas:true
+  tillagas:true,
+  price:49
   },
 
   {id: 9 ,
@@ -123,7 +130,8 @@ const foods =[
   laktos:true,
   vegan:false,
   kall:false,
-  tillagas:true
+  tillagas:true,
+  price:49
   },
 
   {id: 10 ,
@@ -136,7 +144,8 @@ const foods =[
   laktos:true,
   vegan:false,
   kall:false,
-  tillagas:true
+  tillagas:true,
+  price:49
   },
 
   {id: 11 ,
@@ -149,7 +158,8 @@ const foods =[
   laktos:false,
   vegan:false,
   kall:false,
-  tillagas:true
+  tillagas:true,
+  price:49
 },
  
 {id: 12 ,
@@ -161,7 +171,9 @@ const foods =[
   gluten:false,
   laktos:false,
   vegan:false,
-  kall:true
+  kall:true,
+  price:19
+  
 },
 
 {id: 13 ,
@@ -174,8 +186,10 @@ const foods =[
   laktos:false,
   vegan:false,
   kall:false,
-  energi: true
-},
+  energi: true,
+  price:19
+  
+}
 ]
 
 
