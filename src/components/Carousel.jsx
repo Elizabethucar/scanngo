@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const Carousel = () => {
   const slides = [
     {
-      src: "https://images.unsplash.com/photo-1678684277915-5d3f48977b87?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGJlZWYlMjBzdGVld3xlbnwwfHwwfHx8MA%3D%3D",
+      src: "https://images.unsplash.com/photo-1551807501-1577675640e9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHBpZXxlbnwwfHwwfHx8MA%3D%3D",
       caption: "Slide 1",
     },
     {
