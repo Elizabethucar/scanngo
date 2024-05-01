@@ -14,18 +14,18 @@ const Food= () => {
         <div className='w-full py-16 text-[#0D124B] px-4'>
           <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 relative'>
           <span><img
-            src="images/walltall.jpg"
-            className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
+            src="images/flankstek.png"
+            className="h-18 pr-6 mt-1 md:h-22 sm:h-22"
             alt="wallenberg"
           /></span>
             <span><img
-            src="images/laxtall.jpg"
+            src="images/oxfile.png"
             className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
             alt="salmon"
           /></span>
             <span><img
-            src="images/köttbtall.jpg"
-            className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
+            src="images/bristek.png"
+            className="h-18 pl-8 mt-1 md:h-22 sm:h-22"
             alt="meatballs"
           /></span>
           </div>

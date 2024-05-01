@@ -20,7 +20,7 @@ const Info = () => {
             alt="menu"
           /></span>
           <h1 className='font-bold text-green-700'>Brett utbud</h1>
-          <p>Med olika smaker och innehåll: kyckling, kött, fisk, pasta & vegansk</p>
+          <p>Med olika smaker och innehåll: kyckling, kött, pasta & BBQ </p>
           </div>
          {/*  <div className='text-center font-medium mr-4'>
           <span><img
