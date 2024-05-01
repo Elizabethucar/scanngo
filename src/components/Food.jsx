@@ -15,17 +15,17 @@ const Food= () => {
           <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 relative'>
           <span><img
             src="images/flankstek.png"
-            className="h-18 pr-6 mt-1 md:h-22 sm:h-22"
+            className="h-18  p-2 md:pr-6 mt-1 md:h-22 sm:h-22"
             alt="wallenberg"
           /></span>
             <span><img
             src="images/oxfile.png"
-            className="h-18 pl-2 mt-1 md:h-22 sm:h-22"
+            className="h-18 p-2 mt-1 md:h-22 sm:h-22"
             alt="salmon"
           /></span>
             <span><img
             src="images/bristek.png"
-            className="h-18 pl-8 mt-1 md:h-22 sm:h-22"
+            className="h-18 p-2 md:pl-8 mt-1 md:h-22 sm:h-22"
             alt="meatballs"
           /></span>
           </div>

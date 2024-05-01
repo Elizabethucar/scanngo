@@ -21,7 +21,7 @@ const Contact = () => {
     AOS.init({duration:1500})
   })
   return (
-    <div className="w-full px-8 py-36 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-28 mb-28">
+    <div className="w-full px-8 py-20 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-28 mb-28">
   <div className="divide-y divide-neutral-900 border border-neutral-900">
 
     <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">

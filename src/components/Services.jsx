@@ -12,7 +12,7 @@ const Services = () => {
 
   return (
     <>
-    <section className="w-full px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-32 md:mb-48">
+    <section className="w-full px-8 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-24 md:mb-20">
       <div>
         <span className="block mb-4 text-md md:text-xl text-green-600 font-medium">
         Scan´n Go
