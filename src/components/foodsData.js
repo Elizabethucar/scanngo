@@ -75,7 +75,7 @@ const foods =[
   vegan:false,
   kall:false,
   mikro:true,
-  price:59
+  price:69
     },
 
   {id: 6 ,
@@ -89,7 +89,7 @@ const foods =[
    vegan:false,
    kall:false,
    mikro:true,
-   price:59
+   price:69
   },
 
   {id: 7 ,
@@ -103,7 +103,7 @@ const foods =[
    vegan:false,
    kall:false,
    mikro:true,
-   price:59
+   price:69
   },
 
   {id: 8 ,
