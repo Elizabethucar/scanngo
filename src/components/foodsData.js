@@ -4,8 +4,8 @@
 const foods =[
   {id: 1 , 
     name:'Pasta Sallader',
-    helNamn:'Räksallad, Ost och Skinksallad, Grekisksallad med pasta (450g)',
-    ingred:'Pastasallad ,Räkor, Ost och Skinka, Grekisk',
+    helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad med pasta (450g)',
+    ingred:'Pastasallad Kyckling, Ost och Skinka, ',
     spec:'Specifikation står på förpackningen',
     img:'/images/pastasallad.png',
     gluten:false,
