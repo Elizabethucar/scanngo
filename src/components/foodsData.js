@@ -2,8 +2,22 @@
 
 
 const foods =[
-
   {id: 1 , 
+    name:'Pasta Sallader',
+    helNamn:'Räksallad, Ost och Skinksallad, Grekisksallad med pasta (450g)',
+    ingred:'Pastasallad ,Räkor, Ost och Skinka, Grekisk',
+    spec:'Specifikation står på förpackningen',
+    img:'/images/pastasallad.png',
+    gluten:false,
+    laktos:false,
+    vegan:false,
+    kall:true,
+    mikro:false,
+    price:79
+
+   },
+
+  {id: 2 , 
     name:'Oxfilépasta',
     helNamn:'Oxfilépasta med bitar av oxfilé och krämig vitvinssås smaksatt med tryffelolja och chili (400g)',
     ingred:'Oxfile, Pasta, Grädde, Mjölk, Lök',
@@ -18,7 +32,7 @@ const foods =[
 
    },
 
-  {id:2 , 
+  {id: 3 , 
    name:'Biff Stroganoff',
    helNamn:'Biff Stroganoff med champinjoner och lök. Serverat med potatismos och cornichons (400g)',
    ingred:'Nötkött, Potatismos , Champinjoner, Lök , Grädde, Dijonsenap',
@@ -32,21 +46,6 @@ const foods =[
    price:69
    
   
-  },
-
-  {id: 3 ,
-   name:'Texas BBQ Brisket',
-   helNamn:'Texas BBQ Brisket med blackbeans och rökt majsröra (400g)',
-   ingred:'Nötkött, Ungsrostad potatis, Lök , Vitlök, Äggula',
-   spec:'820kJ/197 kcal, fett 12 g, kolhydrater 14 g , protein 6.1 g.',
-    mat:'Nöt', 
-    img:'/images/bristek.png',
-    gluten:false,
-    laktos:false,
-    vegan:false,
-    kall:false,
-    mikro:true,
-    price:69
   },
 
   {id: 4 ,
