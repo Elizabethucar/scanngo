@@ -4,10 +4,24 @@
 const foods =[
   {id: 1 , 
     name:'Pasta Sallader',
-    helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad med pasta (450g)',
-    ingred:'Pastasallad Kyckling, Ost och Skinka, ',
+    helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad  (450g)',
+    ingred:'Pastasallad, Räkor, Ost och Skinka, Kyckling',
     spec:'Specifikation står på förpackningen',
-    img:'/images/pastasallad.png',
+    img:'/images/Pastaostskinka.jpg',
+    gluten:false,
+    laktos:false,
+    vegan:false,
+    kall:true,
+    mikro:false,
+    price:79
+
+   },
+   {id: 2 , 
+    name:'Sallader',
+    helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad , Grekisksallad (450g)',
+    ingred:'Sallad, Räkor, Ost och Skinka, Kyckling, Grekisk',
+    spec:'Specifikation står på förpackningen',
+    img:'/images/Raksallad.jpg',
     gluten:false,
     laktos:false,
     vegan:false,
@@ -17,7 +31,7 @@ const foods =[
 
    },
 
-  {id: 2 , 
+  {id: 3 , 
     name:'Oxfilépasta',
     helNamn:'Oxfilépasta med bitar av oxfilé och krämig vitvinssås smaksatt med tryffelolja och chili (400g)',
     ingred:'Oxfile, Pasta, Grädde, Mjölk, Lök',
@@ -32,7 +46,7 @@ const foods =[
 
    },
 
-  {id: 3 , 
+  {id: 4 , 
    name:'Biff Stroganoff',
    helNamn:'Biff Stroganoff med champinjoner och lök. Serverat med potatismos och cornichons (400g)',
    ingred:'Nötkött, Potatismos , Champinjoner, Lök , Grädde, Dijonsenap',
@@ -48,7 +62,7 @@ const foods =[
   
   },
 
-  {id: 4 ,
+  {id: 5 ,
    name:'Grillad Flankstek',
    helNamn:'Grillad Flankstek med rostad klyftpotatis, ratatouille och bearnaise (400g)',
    mat:'Flankstek', 
@@ -63,7 +77,7 @@ const foods =[
    price:69
   
   },
-  {id: 5 ,
+  {id: 6 ,
   name:'Köttfärspaj',
   helNamn:'Paj Med Nötfärs (300g)',
   img:'/images/köttpaj.jpg',
@@ -91,7 +105,7 @@ const foods =[
    price:69
   },
 
-  {id: 7 ,
+  {id: 8 ,
    name:'Ost och Skinkpaj', 
    helNamn:'Ost och Skinkpaj med Finsk kvalitets skinka och Goudaost (300g)',
    img:'/images/Ostskinkpaj.jpg',
@@ -105,7 +119,7 @@ const foods =[
    price:69
   },
 
-  {id: 8 ,
+  {id: 9 ,
   name:'BBQ Kyckling Bacon Panini',
   helNamn:'BBQ Kyckling Bacon Panini har en fyllning med kycklinglårfilé, bacon och BBQ-chillidressing (235g)', 
   img:'/images/bbqkyckling.jpg',
@@ -119,7 +133,7 @@ const foods =[
   price:49
   },
 
-  {id: 9 ,
+  {id: 10 ,
   name:'Kebab Vitlök Panini',
   helNamn:'Kebab Vitlök Panini fylld med kebabflarn och vitlöksdressing (235g) ', 
   img:'/images/kebab.jpg',
@@ -133,7 +147,7 @@ const foods =[
   price:49
   },
 
-  {id: 10 ,
+  {id: 11 ,
   name:'Ost & skinka Panini',
   helNamn:'Ost & skinka Panini innehåller rökt skinka, edamerost och Mr. Panini originaldressing (235g)',
   img:'/images/ostskinka.jpg',
@@ -147,7 +161,7 @@ const foods =[
   price:49
   },
 
-  {id: 11 ,
+  {id: 12 ,
   name:'Pesto Mozzarella Panini', 
   helNamn:'Pesto Mozzarella Panini är fylld med mozzarellaost, pesto, soltorkade tomater, toppas med en vegetarisk dressing och edamerost(235g)', 
   img:'/images/pesto.jpg',
@@ -161,7 +175,7 @@ const foods =[
   price:49
 },
  
-{id: 12 ,
+{id: 13 ,
   name:'Dricka', 
   helNamn:'Kall dricka/läsk till maten!', 
   img:'/images/cola.png',
@@ -175,7 +189,7 @@ const foods =[
   
 },
 
-{id: 13 ,
+{id: 14 ,
   name:'Snacks', 
   helNamn:'Snacks, fyll på med energi!', 
   img:'/images/snacks.png',
