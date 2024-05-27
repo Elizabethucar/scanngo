@@ -19,7 +19,7 @@ const foods =[
    {id: 2 , 
     name:'Sallader',
     helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad , Grekisksallad (450g)',
-    ingred:'Sallad, Räkor, Ost och Skinka, Kyckling, Grekisk',
+    ingred:'Sallad, Räkor, Ceasar, Tonfisk, Grekisk',
     spec:'Specifikation står på förpackningen',
     img:'/images/Raksallad.jpg',
     gluten:false,
