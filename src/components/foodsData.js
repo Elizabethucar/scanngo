@@ -5,7 +5,7 @@ const foods =[
   {id: 1 , 
     name:'Pasta Sallader',
     helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad  (450g)',
-    ingred:'Pastasallad, Räkor, Ost och Skinka, Kyckling',
+    ingred:'Räkor, Ost och Skinka, Kyckling',
     spec:'Specifikation står på förpackningen',
     img:'/images/Pastaostskinka.jpg',
     gluten:false,
@@ -19,7 +19,7 @@ const foods =[
    {id: 2 , 
     name:'Sallader',
     helNamn:'Räksallad, Ost och Skinksallad, Kycklingsallad , Grekisksallad (450g)',
-    ingred:'Sallad, Räkor, Ceasar, Tonfisk, Grekisk',
+    ingred:' Räkor, Ceasar, Tonfisk, Grekisk',
     spec:'Specifikation står på förpackningen',
     img:'/images/Raksallad.jpg',
     gluten:false,
@@ -32,6 +32,35 @@ const foods =[
    },
 
   {id: 3 , 
+   name:'Baguette',
+   helNamn:' Baguette med en variation av pålägg och delikata röror ',
+   ingred:'Kycklingröra, Skagenröra , Ost och Skinka, Köttbullar, Salami och Mozarella ',
+   spec:'Specifikation står på förpackningen',
+   img:'/images/baguette.jpg',
+   gluten:false,
+   laktos:false,
+   vegan:false,
+   kall:true,
+   mikro:false,
+   price:49
+
+  },
+  {id: 4 , 
+   name:'Wraps',
+   helNamn:'Wrap med orientaliskt tunnbröd och en variation av fyllningar',
+   ingred:'Räkor, Kyckling,Ceasar,Kebab, Rostbiff, Vegetarisk',
+   spec:'Specifikation står på förpackningen',
+   img:'/images/wrap-kyckling.jpg',
+   gluten:false,
+   laktos:false,
+   vegan:false,
+   kall:true,
+   mikro:false,
+   price:49
+
+  },
+
+  {id: 5 , 
     name:'Oxfilépasta',
     helNamn:'Oxfilépasta med bitar av oxfilé och krämig vitvinssås smaksatt med tryffelolja och chili (400g)',
     ingred:'Oxfile, Pasta, Grädde, Mjölk, Lök',
@@ -46,7 +75,7 @@ const foods =[
 
    },
 
-  {id: 4 , 
+  {id: 6 , 
    name:'Biff Stroganoff',
    helNamn:'Biff Stroganoff med champinjoner och lök. Serverat med potatismos och cornichons (400g)',
    ingred:'Nötkött, Potatismos , Champinjoner, Lök , Grädde, Dijonsenap',
@@ -62,7 +91,7 @@ const foods =[
   
   },
 
-  {id: 5 ,
+  {id: 7 ,
    name:'Grillad Flankstek',
    helNamn:'Grillad Flankstek med rostad klyftpotatis, ratatouille och bearnaise (400g)',
    mat:'Flankstek', 
@@ -77,7 +106,7 @@ const foods =[
    price:69
   
   },
-  {id: 6 ,
+  {id: 8 ,
   name:'Köttfärspaj',
   helNamn:'Paj Med Nötfärs (300g)',
   img:'/images/köttpaj.jpg',
@@ -91,7 +120,7 @@ const foods =[
   price:69
     },
 
-  {id: 6 ,
+  {id: 9,
    name:'Västerbottensostpaj',
    helNamn:'Paj med västerbottensost (300g)', 
    img:'/images/Vasterbotten.jpg',
@@ -105,7 +134,7 @@ const foods =[
    price:69
   },
 
-  {id: 8 ,
+  {id: 10 ,
    name:'Ost och Skinkpaj', 
    helNamn:'Ost och Skinkpaj med Finsk kvalitets skinka och Goudaost (300g)',
    img:'/images/Ostskinkpaj.jpg',
@@ -119,7 +148,7 @@ const foods =[
    price:69
   },
 
-  {id: 9 ,
+  {id: 11 ,
   name:'BBQ Kyckling Bacon Panini',
   helNamn:'BBQ Kyckling Bacon Panini har en fyllning med kycklinglårfilé, bacon och BBQ-chillidressing (235g)', 
   img:'/images/bbqkyckling.jpg',
@@ -133,7 +162,7 @@ const foods =[
   price:49
   },
 
-  {id: 10 ,
+  {id: 12 ,
   name:'Kebab Vitlök Panini',
   helNamn:'Kebab Vitlök Panini fylld med kebabflarn och vitlöksdressing (235g) ', 
   img:'/images/kebab.jpg',
@@ -147,7 +176,7 @@ const foods =[
   price:49
   },
 
-  {id: 11 ,
+  {id: 13 ,
   name:'Ost & skinka Panini',
   helNamn:'Ost & skinka Panini innehåller rökt skinka, edamerost och Mr. Panini originaldressing (235g)',
   img:'/images/ostskinka.jpg',
@@ -161,7 +190,7 @@ const foods =[
   price:49
   },
 
-  {id: 12 ,
+  {id: 14 ,
   name:'Pesto Mozzarella Panini', 
   helNamn:'Pesto Mozzarella Panini är fylld med mozzarellaost, pesto, soltorkade tomater, toppas med en vegetarisk dressing och edamerost(235g)', 
   img:'/images/pesto.jpg',
@@ -175,7 +204,7 @@ const foods =[
   price:49
 },
  
-{id: 13 ,
+{id: 15 ,
   name:'Dricka', 
   helNamn:'Kall dricka/läsk till maten!', 
   img:'/images/cola.png',
@@ -189,7 +218,7 @@ const foods =[
   
 },
 
-{id: 14 ,
+{id: 16 ,
   name:'Snacks', 
   helNamn:'Snacks, fyll på med energi!', 
   img:'/images/snacks.png',
