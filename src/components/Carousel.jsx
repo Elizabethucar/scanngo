@@ -7,7 +7,7 @@ const Carousel = () => {
       caption: "Slide 1",
     },
     {
-      src: "https://images.unsplash.com/photo-1676300185292-e23bb3db50fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1550507992-eb63ffee0847?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFndWV0dGVzfGVufDB8fDB8fHww",
       caption: "Slide 2",
     },
     {
@@ -15,7 +15,7 @@ const Carousel = () => {
       caption: "Slide 3",
     },
     {
-      src: "https://images.unsplash.com/photo-1580638149300-65f0b9e8fbff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fG1vemFyZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
+      src: "https://images.unsplash.com/photo-1595786802424-d6efbc413db5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHNhbGFkc3xlbnwwfHwwfHx8MA%3D%3D",
       caption: "Slide 4",
     },
     {
@@ -34,7 +34,7 @@ const Carousel = () => {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, );
+  });
 
   const goToSlide = (index) => {
     setCurrentSlide(index);
@@ -62,11 +62,7 @@ const Carousel = () => {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img
-              src={slide.src}
-              alt={slide.caption}
-              className="h-96"
-            />
+            <img src={slide.src} alt={slide.caption} className="h-96" />
           </div>
         ))}
       </div>
