@@ -46,7 +46,7 @@ const Partners = () => {
             className="w-80px mx-auto bg-white relative object-fit  mt-16  hover:scale-105 duration-300 "
           />
         </Link>
-        <Link to="https://www.hsb.se/sodertalje/" className="my-auto">
+        <Link to="https://ahrens-transport.se/" className="my-auto">
           <img
             src="./images/arens.png"
             alt="hsb-logo"
