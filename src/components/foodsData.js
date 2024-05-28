@@ -80,7 +80,7 @@ const foods =[
    helNamn:'Biff Stroganoff med champinjoner och lök. Serverat med potatismos och cornichons (400g)',
    ingred:'Nötkött, Potatismos , Champinjoner, Lök , Grädde, Dijonsenap',
    spec:'584 kJ/140 kcal, fett 9.5 g,kolhydrater 7.1 g, protein 6 g',
-   img:'/images/biffstroganoff.jpg',
+   img:'/images/biffstroganoff.png',
    gluten:false,
    laktos:false,
    vegan:false,

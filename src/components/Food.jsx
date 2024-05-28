@@ -19,21 +19,21 @@ const Food = () => {
             <img
               src="images/flankstek.png"
               className="h-18  p-2 md:pr-6 mt-1 md:h-22 sm:h-22"
-              alt="wallenberg"
+              alt="flankstek"
             />
           </span>
           <span>
             <img
               src="images/oxfile.png"
               className="h-18 p-2 mt-1 md:h-22 sm:h-22"
-              alt="salmon"
+              alt="oxfilepasta"
             />
           </span>
           <span>
             <img
               src="images/biffstroganoff.png"
               className="h-18 p-2 md:pl-8 mt-1 md:h-22 sm:h-22"
-              alt="meatballs"
+              alt="biffstroganoff"
             />
           </span>
         </div>
