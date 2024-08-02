@@ -51,11 +51,8 @@ const Faq = () => {
         {showdiv1 && (
           <div>
             <p data-aos="flip-up" className="text-black py-2">
-              {" "}
-              För närvarande beställer ni genom att skicka mejl till oss med era
-              kontaktuppgifter, hur många matlådor och vilka ni vill beställa.
-              Minimum beställning är 10 lådor. Frakt tillkommer med 59kr inom
-              tullarna och 69kr utanför tullarna. Företag har fri frakt.
+              Kontakta oss för en skräddarsydd lösning för ert företag, via
+              telefon eller mejl.
             </p>
           </div>
         )}
@@ -70,15 +67,11 @@ const Faq = () => {
         {showdiv2 && (
           <div>
             <p data-aos="flip-up" className="text-black py-2">
-              {" "}
-              Till privatpersoner levererar vi varje Måndag eftermiddag och
-              beställningen ska läggas på Fredag innan kl 12. Till företag
-              levererar vi på Tisdagar och beställningen ska läggas på Fredag
-              innan kl 12.
+              Vi levererar i dagsläget enbart till företag.
             </p>
           </div>
         )}
-        <button
+        {/*  <button
           className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0"
           onClick={() => {
             setShowdiv3(!showdiv3);
@@ -95,7 +88,7 @@ const Faq = () => {
               hållbarhet.
             </p>
           </div>
-        )}
+        )} */}
         <button
           className="bg-green-700 hover:bg-gradient-to-r from-green-800 via-green-500 to-green-800 shadow-lg text-white   rounded-md font-medium my-6 w-full mx-auto px-6 py-3 z-0 "
           onClick={() => {
