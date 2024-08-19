@@ -42,7 +42,7 @@ const foods =[
    vegan:false,
    kall:true,
    mikro:false,
-   price:49
+   price:59
 
   },
   {id: 4 , 
@@ -56,7 +56,7 @@ const foods =[
    vegan:false,
    kall:true,
    mikro:false,
-   price:49
+   price:59
 
   },
 
@@ -71,7 +71,7 @@ const foods =[
     vegan:false,
     kall:false,
     mikro:true,
-    price:69
+    price:79
 
    },
 
@@ -86,7 +86,7 @@ const foods =[
    vegan:false,
    kall:false,
    mikro:true,
-   price:69
+   price:79
    
   
   },
@@ -103,7 +103,7 @@ const foods =[
    vegan:false,
    kall:false,
    mikro:true,
-   price:69
+   price:79
   
   },
   {id: 8 ,
@@ -159,7 +159,7 @@ const foods =[
   vegan:false,
   kall:false,
   tillagas:true,
-  price:49
+  price:59
   },
 
   {id: 12 ,
@@ -173,7 +173,7 @@ const foods =[
   vegan:false,
   kall:false,
   tillagas:true,
-  price:49
+  price:59
   },
 
   {id: 13 ,
@@ -187,7 +187,7 @@ const foods =[
   vegan:false,
   kall:false,
   tillagas:true,
-  price:49
+  price:59
   },
 
   {id: 14 ,
@@ -201,7 +201,7 @@ const foods =[
   vegan:false,
   kall:false,
   tillagas:true,
-  price:49
+  price:59
 },
  
 {id: 15 ,

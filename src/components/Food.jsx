@@ -17,21 +17,21 @@ const Food = () => {
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 relative">
           <span>
             <img
-              src="images/flankstek.png"
+              src="images/laxtall.jpg"
               className="h-18  p-2 md:pr-6 mt-1 md:h-22 sm:h-22"
               alt="flankstek"
             />
           </span>
           <span>
             <img
-              src="images/oxfile.png"
+              src="images/walltall.jpg"
               className="h-18 p-2 mt-1 md:h-22 sm:h-22"
               alt="oxfilepasta"
             />
           </span>
           <span>
             <img
-              src="images/biffstroganoff.png"
+              src="images/köttbtall.jpg"
               className="h-18 p-2 md:pl-8 mt-1 md:h-22 sm:h-22"
               alt="biffstroganoff"
             />
