@@ -14,8 +14,8 @@ const Navbar = () => {
         <span className=" flex flex-row-reverse mt-0 mr-4 pb-0 items-center hover self-center font-poppins text-4xl font-semi-bold whitespace-nowrap dark:text-[#0D124B]">
           <span>
             <img
-              src="../images/transperant.png"
-              className="h-20 pl-2 mt-2 md:h-32 sm:h-22"
+              src="../images/newlogo.png"
+              className="h-20 pl-2 mt-2 md:h-36 sm:h-22"
               alt="scanngo logo"
             />
           </span>
@@ -95,7 +95,7 @@ const Navbar = () => {
             <span>
               {" "}
               <img
-                src="../images/scan.png"
+                src="../images/newlogo.png"
                 className="h-24 pl-12 mt-2 sm:h-12"
                 alt="scanngo logo"
               />
