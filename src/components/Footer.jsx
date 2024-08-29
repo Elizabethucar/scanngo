@@ -13,7 +13,7 @@ const Footer = () => {
               {" "}
               <img
                 src="./images/newlogo.png"
-                className="h-12  md:h-36"
+                className="h-32  md:h-48"
                 alt="logo"
               />
             </span>

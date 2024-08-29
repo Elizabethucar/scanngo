@@ -15,7 +15,7 @@ const Navbar = () => {
           <span>
             <img
               src="../images/newlogo.png"
-              className="h-20 pl-2 mt-2 md:h-36 sm:h-22"
+              className="h-32 pl-2 mt-2 md:h-48 sm:h-32"
               alt="scanngo logo"
             />
           </span>
@@ -96,7 +96,7 @@ const Navbar = () => {
               {" "}
               <img
                 src="../images/newlogo.png"
-                className="h-24 pl-12 mt-2 sm:h-12"
+                className="h-32 pl-12 mt-2 sm:h-32"
                 alt="scanngo logo"
               />
             </span>
